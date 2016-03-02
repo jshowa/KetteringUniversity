@@ -1,0 +1,17 @@
+#!/bin/sh
+# script3 - shows how an environment variable is passed to commands
+# TZ is timezone, affect things like date, and ls -l
+#
+if cd /cygdrive/c/happy
+then
+    echo No happy directory
+else
+    if cd /cygdrive/c
+    then
+        ls -la
+        if ps -a
+        then
+            echo ps worked!
+        fi
+    fi
+fi

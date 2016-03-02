@@ -1,0 +1,5 @@
+DTW/Detroit (Wayne County), MI, USA
+FNT/Flint, MI, USA
+DTT/Detroit, MI, USA (City Code)
+DET/Detroit (City Airport), MI, USA
+YIP/Detroit (Willow Run), MI, USA

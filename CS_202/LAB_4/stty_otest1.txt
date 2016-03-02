@@ -1,0 +1,22 @@
+Script started on Tue May 19 09:01:13 2009
+nova{howa1643}1% stty1
+speed 9600 baud; cread  -parenb  -parodd  -hupcl 
+intr = ^C; erase = ^H; kill = ^U; 
+ icrnl  -olcuc  onlcr  tabs  echo  echoe  icanon  isig 
+nova{howa1643}2% stty erase ^? kill 2 erase 3
+nova{howa1643}3% stty1
+speed 9600 baud; cread  -parenb  -parodd  -hupcl 
+intr = ^C; erase = 3; kill = 2; 
+ icrnl  -olcuc  onlcr  tabs  echo  echoe  icanon  isig 
+nova{howa1643}4% stty1 erase ^H kill ^U
+nova{howa1643}5% stty1
+speed 9600 baud; cread  -parenb  -parodd  -hupcl 
+intr = ^C; erase = ^H; kill = ^U; 
+ icrnl  -olcuc  onlcr  tabs  echo  echoe  icanon  isig 
+nova{howa1643}6% stty1 olcuc -onlcr -tabs -echo
+NOVA{HOWA1643}7% nova{howa1643}8% stty1
+speed 9600 baud; cread  -parenb  -parodd  -hupcl 
+intr = ^C; erase = ^H; kill = ^U; 
+ icrnl  -olcuc  onlcr  tabs  echo  echoe  icanon  isig 
+nova{howa1643}9% ^D
+script done on Tue May 19 09:03:54 2009

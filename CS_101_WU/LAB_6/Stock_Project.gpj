@@ -1,0 +1,17 @@
+!516;s
+A
+SAU0PATH+=%<JGRASP_PATHS>%;
+SCU0PATH+=%<JGRASP_PATHS>%;
+S+U0PATH+=%<JGRASP_PATHS>%;
+SJU0CLASSPATH=+%;%<EXTENSION_CLASSPATHS>\012CLASSPATH+=%<JGRASP_CLASSPATHS>%;\012CLASSPATH+=.%;\012PATH+=%<JAVA_BIN_DIR>%;\012PATH+=%<JGRASP_PATHS>%;\012Compile\012NOT_FOUND_MESSAGE==Make sure you have the full JDK (J2SE SDK or other), not just the JRE, installed.\\nThe J2SE SDK is available from java.sun.com.\012Run_Applet +Debug_Applet\012ADD_APPLETVIEWER_CLASSPATH==Y\012
+SOU0PATH+=%<JGRASP_PATHS>%;
+SPU0
+s#i0
+s#k0
+s#j0
+s#l0
+!1531;d
+[\012  grasp [\012   legendy -32.5\012   legendx 0.0\012   version 1\012   winflags 0\012   height 424\012   width 469\012   wbp 0\012   initlayout 0\012   yoffs -92.50862068965517\012   xoffs 38.03865979381442\012   scale 1.0\012   args ""\012   otherflags 139\012   visflags 118423679\012  ]\012  directed 1\012  node [\012   ClassInfo [\012    fields "currentPrice\\011D\\011\\0112\\011\\011\\011Stock\011name\\011Ljava/lang/String;\\011\\0112\\011\\011\\011Stock\011previousClosingPrice\\011D\\011\\0112\\011\\011\\011Stock\011symbol\\011Ljava/lang/String;\\011\\0112\\011\\011\\011Stock\011Stock\\011()V\\011c\\0110\\011\\011\\011Stock\011Stock\\011(Ljava/lang/String;Ljava/lang/String;)V\\011c\\0110\\011\\011\\011Stock\011changePercent\\011()D\\011\\0111\\011\\011\\011Stock\011getCurrentPrice\\011()D\\011\\0111\\011\\011\\011Stock\011getName\\011()Ljava/lang/String;\\011\\0111\\011\\011\\011Stock\011getPreviousClosingPrice\\011()D\\011\\0111\\011\\011\\011Stock\011getSymbol\\011()Ljava/lang/String;\\011\\0111\\011\\011\\011Stock\011setCurrentPrice\\011(D)V\\011\\0111\\011\\011\\011Stock\011setPreviousClosingPrice\\011(D)V\\011\\0111\\011\\011\\011Stock"\012    condition 0\012    access2 0\012    access 2228257\012    classname "Stock"\012    fromclassfiledate 1195009734000\012    fromclassfilename "%\011Stock.class"\012    fromfilename "%\011Stock.java"\012   ]\012   id 0\012   graphics [\012    center [\012     x 0.0\012     y 0.0\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012 ]!16;g
+%\011Stock.java
+!13;f
+%	Stock.java

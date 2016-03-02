@@ -1,0 +1,312 @@
+/* Jacob Howarth
+ * CS-101-05L, Fall 2007
+ * Professor Wu 10/31/07
+ */
+ 
+ /* Description - This program uses several mathematical functions that compute
+  * the square root of a number, mean and standard deviation of a number, print
+  * ten random uppercase letters and digits, and calculates the area of a triangle.
+  * This program makes use of the math class to complete these feets.
+  */
+
+   import javax.swing.JOptionPane;
+    public class MathFunctionCalc {
+   
+      static int counter;
+   
+       public static void main(String[] args) {
+         boolean keepGoing = true;
+         String tableOptions = "";
+         String optionChoice = "";
+      
+         while (keepGoing) { // while loop used to print the options menu and allow the user to enter one of the four options in the window.
+            tableOptions = "*******MATH FUNCTION CALCULATOR v1.0*******\n";
+            tableOptions += "Instructions: Please type one of the following\n" +
+               		"numbers into the window. For example, type \"1\" for\n" +
+               		"option 1.\n\n";
+            tableOptions += "---Options---\n";
+            tableOptions += "1. Compute Standard Deviation and Mean of Ten Random Numbers.\n" +
+               	 "2. Compute the Square Root of a Number using Newton-Raphson Method.\n" +
+               	 "3. Compute Ten Random Uppercase Letters and Ten Random Digits.\n" +
+               	 "4. Compute the Area of a Triangle using Heron's Formula.";
+            optionChoice = JOptionPane.showInputDialog(null, tableOptions + "\n\n" + "Please type a choice in the input box: ",
+               												"MATH FUNCTION CALC v1.0", JOptionPane.INFORMATION_MESSAGE);
+         
+            if (optionChoice.equalsIgnoreCase("1") || optionChoice.equalsIgnoreCase("2") || optionChoice.equalsIgnoreCase("3") || optionChoice.equalsIgnoreCase("4"))
+               keepGoing = !keepGoing; // if the user inputs a character or a number not on the menu, an error message will occur and the program will reloop for new input.
+            else
+               JOptionPane.showMessageDialog(null, "Error: Please type one of the four numbers present in the option table", "PROGRAM ERROR!", JOptionPane.ERROR_MESSAGE);
+         } // end loop
+      
+         selectionChoice(optionChoice); // this method starts the seperate programs for each option choice
+      
+      } // main
+   
+       public static void selectionChoice(String optionChoice) {
+      
+         double squareRootNum = 0;
+         String numberToBeRooted = "";
+         double triSide1 = 0, triSide2 = 0, triSide3 = 0;
+         String triSide1S = "", triSide2S = "", triSide3S = "";
+         double result = 0;
+         String output = "";
+      
+      // switch could have been used for if...else-if statements
+         if (optionChoice.equalsIgnoreCase("1")) // A series of if statements are used to launch the appropriate program based off the menu choice typed at the menu screen.
+            meanDeviation(); // choice one calls the method used to find the mean and deviation of 10 random numbers.
+         else if (optionChoice.equalsIgnoreCase("2")) { // this if statement runs the square root program
+            numberToBeRooted = JOptionPane.showInputDialog("Enter a number greater than zero of which the square root will be taken: ");
+            squareRootNum = Double.parseDouble(numberToBeRooted);
+            squareRootNum = negativeErrorCheck(squareRootNum, optionChoice); // the number of which the square root will be taken must be checked if negative, this method is called to do this.
+            result = mySquare(squareRootNum); // the square root method is called.
+            output = String.format("THE SQUARE ROOT OF " + squareRootNum + " IS EQUAL TO %.9f", result); // format the output
+            JOptionPane.showMessageDialog(null, output, "SQUARE ROOT OF A NUMBER", JOptionPane.INFORMATION_MESSAGE); // print the result of the square root.
+         }
+         else if (optionChoice.equalsIgnoreCase("3"))
+            printRandomLetteDigits(); // this method prints 100 random uppercase letters and 100 random single digits.
+         else {
+            triSide1S = JOptionPane.showInputDialog("Enter a number greater than zero for the first side of the triangle:");
+            triSide1 = Double.parseDouble(triSide1S); // The first side of the triangle is input and checked if its negative
+            triSide1 = negativeErrorCheck(triSide1, optionChoice);
+            triSide2S = JOptionPane.showInputDialog("Enter a number greater than zero for the second side of the triangle:");
+            triSide2 = Double.parseDouble(triSide2S); // The second side is input and checked if its negative
+            triSide2 = negativeErrorCheck(triSide2, optionChoice);
+            triSide3S = JOptionPane.showInputDialog("Enter a number greater than zero for the third side of the triangle:");
+            triSide3 = Double.parseDouble(triSide3S); // The third side is input and checked if its negative
+            triSide3 = negativeErrorCheck(triSide3, optionChoice);
+            result = triangleArea(triSide1, triSide2, triSide3); // This method calculates the area of the triangle and checks the triangle for size constraints.
+         }
+         
+      } // functionChoice
+   
+       public static double negativeErrorCheck(double number, String errorCheckOption) {
+      
+         double checkedNumber = 0;
+         boolean negativeCheck = true;
+         String checkedNumberS = "";
+      
+         while (negativeCheck) {
+         
+            if (number <= 0 && errorCheckOption.equals("2")) { // a loop is used to keep requesting input until the input is positive. Here the option choice number typed at the programs beginning is used to reference 
+               JOptionPane.showMessageDialog(null, "Error: Please enter a number that's bigger than zero.", "PROGRAM ERROR", JOptionPane.ERROR_MESSAGE); // the if statments so an appropriate error message is displayed.
+               checkedNumberS = JOptionPane.showInputDialog("Enter a number greater than zero of which the square root will be taken: ");
+               number = Double.parseDouble(checkedNumberS);
+            }
+            else if (number <= 0 && errorCheckOption.equals("4") && counter == 0) {
+               JOptionPane.showMessageDialog(null, "Error: Please enter a number that's bigger than zero.", "PROGRAM ERROR", JOptionPane.ERROR_MESSAGE);
+               checkedNumberS = JOptionPane.showInputDialog("Enter a number greater than zero for the first side of the triangle: ");
+               number = Double.parseDouble(checkedNumberS); // The first side is checked for a negative input and the static counter displays the appropriate messages and reinput request
+            }
+            else if (number <= 0 && errorCheckOption.equals("4") && counter == 1) {
+               JOptionPane.showMessageDialog(null, "Error: Please enter a number that's bigger than zero.", "PROGRAM ERROR", JOptionPane.ERROR_MESSAGE);
+               checkedNumberS = JOptionPane.showInputDialog("Enter a number greater than zero for the second side of the triangle: ");
+               number = Double.parseDouble(checkedNumberS); // The second side is checked for a negative input and the static counter displays the appropriate messages and reinput request
+            }
+            else if (number <= 0 && errorCheckOption.equals("4") && counter == 2) {
+               JOptionPane.showMessageDialog(null, "Error: Please enter a number that's bigger than zero.", "PROGRAM ERROR", JOptionPane.ERROR_MESSAGE);
+               checkedNumberS = JOptionPane.showInputDialog("Enter a number greater than zero for the third side of the triangle: ");
+               number = Double.parseDouble(checkedNumberS); // The third side is checked for a negative input and the static counter displays the appropriate messages and reinput request
+            }
+            else {
+               checkedNumber = number; // once positive input is input by the user, the loop is exited
+               negativeCheck = !negativeCheck;
+               counter++; /* *IMPORTANT* This is a special counter declared as a static variable in the class.
+            					  * The importance of the counter is to ask for appropriate input for each triangle side when option
+            					  * 4 is chosen, because option 4 requires 3 inputs, one for each side of the triangle. For example,
+            					  * if negative input is put in for the first triangle side, then this method is called, however in order
+            					  * to tell the user where the error occurred, there needs to be an appropriate error message and prompt for
+            					  * reinput for the first side. Since this input is under option 4, then theres nothing to uniquely distinguish
+            					  * it from the other two inputs for the other two triangle sides. A static counter was used to accomplish this since 
+            					  * a local variable counter is insufficient because it's memory is deallocated each time the method is completed which
+            					  * raises complications when the input for the triangle sides reaches the areaTriangle method and the method cannont compute
+            					  * the triangle based on side constraints, requiring new input for the sides.
+            					  */
+            }
+         
+         } // end loop
+      
+         return checkedNumber;
+      
+      } // end errorCheck
+      
+       public static void meanDeviation() {
+      	
+      	/*---Variable Data Table---
+      	 *standardDeviation1 = Variable holds the calculation of a part of the standard deviation equation
+      	 *standardDeviation2 = Variable holds the value of the standard deviation after calculating the second half of the equation
+      	 *randomNumberSum = Variable that holds the sum of the 10 randomly generated numbers with range [0, 1001)
+      	 *mean = Variable that holds the mean of the randomNumberSum / 10
+      	 *randomNumberSquaredSum = Variable that holds the sum of the squares of the randomly generated numbers. This is used in standard deviation equation.
+          *randomNumber = Variable that holds each calculated random number in the range of [0, 1001)
+          *n = counter for the number of times the loop iterates, generating 10 numbers
+      	 *output = String holding the data table and results of the calculations printed in a window.
+      	 */
+      	 
+         double standardDeviation1 = 0;
+         double standardDeviation2 = 0;
+         double randomNumberSum = 0;
+         double mean = 0;
+         double randomNumberSquaredSum = 0;
+         double randomNumber = 0;
+         int n = 1;
+         String output = "";
+      
+      /* Since Math.random() only generates a range of 0 to 1 where 0 is included in the range and 1 isn't a problem occurred
+       * since the lab specifies a number between 0 and 1000, including 0 and 1000. So the range had to be extended from 0 to 1001
+       * not including 1001. However, since doubles are being generated a selection statement was needed to catch any number greater 
+       * than 1000 for example, 1000.5 is not exceptable where 1000 is.
+       */
+      
+         output = "---LIST OF TERMS USED TO COMPUTE MEAN AND STANDARD DEVIATION---\n"; // concatenate the table and results to the output string.
+      
+         while (n <= 10) { 
+            randomNumber = Math.random() * 1001; // generaters a random number in range [0,1001)  
+            if (randomNumber > 1000) // if a number is outside the 1000 range, then recalculate the number
+               randomNumber = Math.random() * 1001;
+            else {
+               randomNumberSum += randomNumber; // if the number is exceptable, then add it to the sum and then square it and add it to the sum squared.
+               randomNumberSquaredSum += Math.pow(randomNumber, 2);
+               output += n + ". " + randomNumber + '\n';
+               n++;
+            }
+         } // end loop
+      
+         n--; // the counter in the while loop must be decremented because it iterates one time more then it should.
+         mean = randomNumberSum / n; // calculate mean
+         output += '\n' + "MEAN: " + mean + '\n';
+      
+         standardDeviation1 = Math.pow(randomNumberSum, 2) / n; // calculate standard deviation
+         standardDeviation2 = Math.sqrt((randomNumberSquaredSum - standardDeviation1) / (n - 1));
+         output += "STANDARD DEVIATION: " + standardDeviation2;
+      
+         JOptionPane.showMessageDialog(null, output, "MEAN AND STANDARD DEVIATION OF A SET OF 10 NUMBERS", JOptionPane.INFORMATION_MESSAGE);
+      
+      } // end meanDeviation
+      
+       public static double mySquare(double num) {
+      
+         /* ---Variable Data Table ---
+          *constant EPSILON = Really small value that is compared to the difference between the two guesses each time they are computed. Used to stop loop at the appropriate spot.
+          *nextGuess = Value calculated from the initial guess, becomes lastGuess after calculation.
+      	 *lastGuess = Intial guess used to calculate nextGuess
+      	 *guessDifference = the absolute value of the difference between nextGuess and lastGuess compared to EPSILON
+      	 */
+      	
+         final double EPSILON = 0.00001;
+         double nextGuess = 0;
+         double lastGuess = 1.0;
+         double guessDifference = 0;
+      
+         do { /* this is a simple method involving square root approximation. 
+         		* The idea is to have an initial guess (lastGuess) of the square root value to compute 
+         		* another closer guess (nextGuess), This will be looped until the difference between each
+         		* guess is less than or equal to a small number EPSILON. */
+         		
+            nextGuess = (lastGuess + (num / lastGuess)) / 2; // calculate nextGuess
+            guessDifference = Math.abs(lastGuess - nextGuess); // take the difference
+            lastGuess = nextGuess; // put the calculated nextGuess into lastGuess for another recalculation
+         
+         } while (EPSILON <= guessDifference); // see if the difference is less than or equal to EPSILON (ie small number).
+      
+         return nextGuess;
+      
+      } // end mySquare
+      
+       public static void printRandomLetteDigits() { /* a simple method that uses the Math.random() method to print a random char set
+      															 	* with range between 'A' and 'Z' and a single digit set from 0-9*/
+         /*---Variable Data Table---
+          *randomChar = the variable that holds the randomly generated character.
+          *ch1 = lowest bound of Math.random() range
+      	 *ch2 = upper bound of Math.random() range
+      	 *randomDigits = the variable that holds the randomly generated single digit.
+      	 *output = the string that has the table and output of the 100 chars and digits appended to it
+      	 */
+      	 
+         char randomChar; 
+         char ch1 = 'A';
+         char ch2 = 'Z';
+         int randomDigits = 0;
+         String output = "";
+      
+         output = "---100 RANDOM UPPERCASE CHARACTERS AND SINGLE DIGITS---\n\n"; // begin creating and appending the table and results to the output string.
+         output += "UPPERCASE LETTERS:" + '\n';
+      
+         for (int j = 1; j <= 100; j++) {
+            randomChar = (char)(Math.random() * (ch2 - ch1 + 1) + ch1); // print a character within the respected range of ch1-ch2
+            output += randomChar + " ";
+            if (j == 10 || j == 20 || j == 30 || j == 40 || j == 50 || j == 60 || j == 70 || j == 80 || j == 90)
+               output += '\n'; // print a new line every 10 characters printed
+         } // end for
+      
+         output += "\n\n" + "DIGITS:" + '\n'; // create and append the digits table to the ouput.
+      
+         for (int i = 1; i <= 100; i++) {
+            randomDigits = (int)(Math.random() * 10); // calculate a random digit with range [0, 9)
+            output += randomDigits + " ";
+            if (i == 10 || i == 20 || i == 30 || i == 40 || i == 50 || i == 60 || i == 70 || i == 80 || i == 90)
+               output += '\n'; // print new line every 10 digits printed
+         } // end for
+      
+         JOptionPane.showMessageDialog(null, output, "100 RANDOM UPPERCASE LETTERS AND SINGLE DIGITS", JOptionPane.INFORMATION_MESSAGE); // print output in a window
+      
+      } // end printRandomLetteDigits
+      
+       public static double triangleArea(double side1, double side2, double side3) {
+      	
+      	/*---Variable Data Table---
+      	 *sideCheck = boolean flag variable used to check for triangle side constraints, if the sides input cannot make a triangle, new input is requested and the method reloops
+      	 *optionChoice = String needed to check the reinputs for negative values if the first input broke triangle size constraints, this string is needed because the negativeErrorCheck method requires two arguments.
+      	 *triSide1, triSide2, triSide3 = Strings that hold the new input for the triangle if the first input failed.
+      	 *triangleAreas = holds the area of a triangle within size constraints
+      	 *semiPerimeter = calculated before the area and used in the area formula
+      	 */
+      	 
+         boolean sideCheck = true;
+         String optionChoice = "4";
+         String triSide1S = "", triSide2S = "", triSide3S = "";
+         double triangleArea = 0;
+         double semiPerimeter = 0;
+        
+         while (sideCheck) {
+         
+            boolean sumOfSide12 = side1 + side2 < side3; /* boolean expressions used to check side constraints of the triangle. */
+            boolean sumOfSide23 = side2 + side3 < side1;	/* if the sum of the two sides is less than the third, then a triangle cannot exist */
+            boolean sumOfSide13 = side1 + side3 < side2;
+            counter = 0; // static counter is reintialized to zero in case negative input was put in at the very beginning of the program.
+         
+            if (sumOfSide12 || sumOfSide23 || sumOfSide13) { // if the sum of two sides is less than the third, request reinput for all sides, checking for negative input as well.
+               JOptionPane.showMessageDialog(null, "Error: The sum of two sides of a triangle cannot be less than the third side.", "PROGRAM ERROR!", JOptionPane.ERROR_MESSAGE);
+               triSide1S = JOptionPane.showInputDialog("Enter a number greater than zero for the first side of the triangle:");
+               side1 = Double.parseDouble(triSide1S); // side 1 reinput
+               side1 = negativeErrorCheck(side1, optionChoice); // call method that checks for negative input for each side
+               triSide2S = JOptionPane.showInputDialog("Enter a number greater than zero for the second side of the triangle:");
+               side2 = Double.parseDouble(triSide2S); // side 2 reinput
+               side2 = negativeErrorCheck(side2, optionChoice);
+               triSide3S = JOptionPane.showInputDialog("Enter a number greater than zero for the third side of the triangle:");
+               side3 = Double.parseDouble(triSide3S); // side 3 reinput
+               side3 = negativeErrorCheck(side3, optionChoice);
+            }
+            else {
+               semiPerimeter = (side1 + side2 + side3) / 2; // if the input is good, calculate the semiperimeter
+               triangleArea = Math.sqrt(semiPerimeter * (semiPerimeter - side1) * (semiPerimeter - side2) * (semiPerimeter - side3)); // use the semiperimeter to calculate the triangle area
+               JOptionPane.showMessageDialog(null,"THE AREA OF A TRIANGLE WITH SIDES\n" + side1 + " " + side2 + 
+                  " " + side3 + "\nEQUALS " + triangleArea,"AREA OF A TRIANGLE", JOptionPane.INFORMATION_MESSAGE); // append the results to a string and print the triangle area along with it's sides for verification.
+               sideCheck = !sideCheck; // exit the loop
+            }
+         
+         } // end while
+      
+         return triangleArea; // the area is returned and not used only because the method signature has a return type defined in the lab instructions
+      								// however it would be difficult to return the area and the triangle sides, especially if new sides were put in due to size constraint errors, so the results were printed
+      								// and the result was returned and not used. A void return type would have been better for this method because showing the area without the sides cannot be verified.
+      								 
+      } // end triangleArea method
+   	
+   } // class
+
+
+
+
+ 
+
+

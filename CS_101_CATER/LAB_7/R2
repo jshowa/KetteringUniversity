@@ -1,0 +1,68 @@
+Script started on Tue May 22 01:55:29 2007
+nova{howa1643}1% java Race
+Jacob Howarth
+CS-101-07L, Spring 2007
+Lab 6 -- Tortosie and Hare
+
+BANG!!! AND THERE OFF!!!
+OUCH!!!                                                                
+ H T                                                                  
+ H    T                                                               
+T H                                                                   
+   OUCH!!!                                                             
+    H T                                                               
+    H    T                                                            
+     H      T                                                         
+      H        T                                                      
+               H  T                                                   
+               H   T                                                  
+   H         T                                                        
+H               T                                                     
+H                  T                                                  
+H                     T                                               
+H                      T                                              
+         H                T                                           
+         H                   T                                        
+                  H             T                                     
+                          TH                                          
+                    T       H                                         
+                     T      H                                         
+                        T    H                                        
+                           T          H                               
+                            T         H                               
+                               T       H                              
+                                  T     H                             
+                            T                    H                    
+                               T                          H           
+                         T                                 H          
+                          T                                 H         
+                           T                                H         
+                              T                             H         
+                                 T                          H         
+                           T                                 H        
+                              T                  H                    
+                                 T                H                   
+                           T                       H                  
+                              T                     H                 
+                                 T                   H                
+                                    T    H                            
+                                       T H                            
+                                          T       H                   
+                                             T     H                  
+                                                T  H                  
+                                                   T        H         
+                                             T  H                     
+                                                TH                    
+                                                 H T                  
+                                             T    H                   
+                                              T            H          
+                                                 T                  H 
+                                           T            H             
+                                              T          H            
+                                        T                 H           
+                                           T              H           
+                                              T                    H  
+Hare wins. Yuch.
+nova{howa1643}2% exit
+nova{howa1643}3% 
+script done on Tue May 22 01:55:38 2007

@@ -1,0 +1,30 @@
+Jacob Howarth
+CS-101-07L, Spring 2007
+Lab -- 3 Julian and Gregorian Julian Date Calculator
+
+
+I/O Formats:
+
+
+Input:
+
+   The input for the program is prompted in the console using the scannner class. 
+In the program, the scanner class was used to create an object of the scanner type 
+called "input" and have it call methods pretaining to the specific variable data 
+types. For example, if I wanted to call the scanner object for input on a year 
+for a specific date, I would assign the variable year to "input.nextInt()" or 
+Double or whatever data type the year was. I also used the scanner to read 
+strings using the ".next()" method. For strings I created a string and 
+assigned it to the "input.next()" method. After that, I created strings for both 
+AD/BC and AM/PM for the era and times. I then compared these strings to 
+the input with .equalsIgnoreCase(), for example string AD would be 
+compared to the string that was assigned to input.next() by way of this syntax
+"AD.equalsIgnoreCase(string variable assigned to input.next())". 
+This checks whether a string equals another string, input from the console, 
+that ignores the case of the string.
+
+Output:
+
+The output was generated using the System.out.print() class and method. 
+This method allowed for strings to be read as well as variables and 
+printed them in the console when results were needed.

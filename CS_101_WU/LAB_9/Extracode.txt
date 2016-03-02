@@ -1,0 +1,268 @@
+public String getBarCode() {
+return barCode;
+}
+
+public String getBorrowerID() {
+return borrowerID;
+}
+
+// book being checked out
+public Calendar getCurrentDate() { 
+Calendar newCurrentDate = new GregorianCalendar();
+return newCurrentDate;
+}
+
+// getting from file
+public Calendar getBorrowDate() {
+return borrowDate;
+}
+
+// getting from file
+public String getReturnDate() {
+return returnDate;
+}
+
+// Reading from the file
+public Calendar borrowDateStringtoObject(String date) {
+String[] list;
+String delims = "[/]";
+int day = 0;
+int month = 0;
+int year = 0;
+
+list = date.split(delims);
+for (int i = 0; i <= list.length - 1; i++) 
+list[i] = list[i].trim();
+
+try {
+day = Integer.parseInt(list[0]);
+month = Integer.parseInt(list[1]) - 1; // Because Calendar.MONTH is zero based (meaning Jan. is 0 and Dec. is 11)
+year = Integer.parseInt(list[2]);
+}
+catch (NumberFormatException ex) {
+System.out.println("Error in reading the date borrowed from file. Program exiting.");
+System.exit(0);
+}
+
+this.borrowDate = new GregorianCalendar(year, month, day, borrowDate.get(Calendar.HOUR), borrowDate.get(Calendar.MINUTE), borrowDate.get(Calendar.SECOND)); 
+return this.borrowDate;
+}
+// Reading from the file
+public Calendar borrowDateStringToObject(String date) {
+String[] list;
+String delims = "[/]";
+int day = 0;
+int month = 0;
+int year = 0;
+
+list = date.split(delims);
+for (int i = 0; i <= list.length - 1; i++) 
+list[i] = list[i].trim();
+
+try {
+day = Integer.parseInt(list[0]);
+month = Integer.parseInt(list[1]) - 1; // Because Calendar.MONTH is zero based (meaning Jan. is 0 and Dec. is 11)
+year = Integer.parseInt(list[2]);
+}
+catch (NumberFormatException ex) {
+System.out.println("Error in reading the date borrowed. Please check the file, Program exiting.");
+System.exit(0);
+}
+
+this.borrowDate = new GregorianCalendar(year, month, day); 
+this.setBorrowDateString(this.borrowDate);
+return this.borrowDate;
+}
+public 
+
+
+public String dateToString(Calendar date) {
+return date.get(Calendar.MONTH) + "/" + date.get(Calendar.DAY) + "/" date.get(Calendar.YEAR)
+}
+} // end CheckOutRecord
+
+
+
+/////////////////////////////////////////////////////
+
+
+public static ArrayList<Integer>  searchForUser(Object[] list, String response) {
+		ArrayList<Integer> userKeys = new ArrayList<Integer>();
+         Scanner decide = new Scanner(System.in);
+      	
+         userKeys.clear();
+         	
+         System.out.println("\nWould you like to search by,");
+         System.out.println("********PLEASE TYPE*********");
+         System.out.println("* (1) First Name           *");
+         System.out.println("* (2) Last Name            *");
+         System.out.println("* (3) ID                   *");
+			System.out.println("* (4) Email Address		  *");
+         System.out.print("Please enter one of the options above: ");
+         response = decide.next();
+			
+			while (!(response.matches("[1-4]{1}"))) {
+			System.out.println("Invalid entry, please choose one of the four options and type the number below.");
+			System.out.println("********PLEASE TYPE*********");
+         System.out.println("* (1) First Name           *");
+         System.out.println("* (2) Last Name            *");
+         System.out.println("* (3) ID                   *");
+			System.out.println("* (4) Email Address		  *");
+         System.out.print("Please enter one of the options above: ");
+         response = decide.next();
+			}
+			
+			Scanner searchValue = new Scanner(System.in);
+			
+			if (response.equalsIgnoreCase("1")) {
+         
+            System.out.print("Please type a first name to search for: ");        
+				response = searchValue.nextLine();
+				
+				while (!(response.matches("[^\\d]+"))) {
+               System.out.println("Invalid first name entry, please enter letters for the first name only.");
+               System.out.print("Please type a first name to search for: ");
+               response = searchValue.next();
+            }   	
+    			
+				userKeys = searchMethod(list, response);      	
+				
+         } 
+         else if(response.equalsIgnoreCase("2")) {
+         
+            System.out.print("Please type a last name to search for: ");       
+				response = searchValue.next();
+         	
+            while (!(response.matches("[^\\d]+"))) {
+               System.out.println("Invalid last name entry, please enter letters for the last name only.");
+               System.out.print("Please type a last name to search for: ");
+               response = searchValue.nextLine();
+            }
+         	
+            userKeys = searchMethod(list, response);
+         
+         }
+         else if (response.equalsIgnoreCase("3")) {
+         
+            System.out.print("Please type an ID to search for: ");        
+				response = searchValue.next();    	
+				
+            while (!(response.matches("[\\d]{5}"))) {
+               System.out.println("Invalid ID entry, please enter a 5 integer number for the ID.");
+               System.out.print("Please type an ID to search for: ");
+               response = searchValue.next();
+            }
+         
+            userKeys = searchMethod(list, response);
+				
+			}
+			else {
+			
+			 System.out.print("Please type an email address to search for: ");        
+				response = searchValue.next();     	
+				
+            while (!(response.matches("[^\\s]+[\\w[\\d[\\W]]]+[\\W]*[@][\\w[\\d]]+[\\W]*[.][a-zA-Z]+"))) {
+               System.out.println("Invalid email address entry, please enter the users email correctly");
+               System.out.print("Please type an email address to search for: ");
+               response = searchValue.next();
+            }
+         
+            userKeys = searchMethod(list, response);
+			
+			} // end else
+			return userKeys;
+		} // end searchForUser
+
+
+if (list[i] instanceof Student && (((Student)list[i]).getFirstName()).equalsIgnoreCase(response))
+					key.add(new Integer(i));
+				if ((list[i] instanceof Student && (((Student)list[i]).getLastName()).equalsIgnoreCase(response)))
+         		key.add(new Integer(i));
+				if ((list[i] instanceof Student && (((Student)list[i]).getID()).equalsIgnoreCase(response)))
+					key.add(new Integer(i));
+				if ((list[i] instanceof Faculty && (((Faculty)list[i]).getFirstName()).equalsIgnoreCase(response)))
+					key.add(new Integer(i));
+				if ((list[i] instanceof Faculty && (((Faculty)list[i]).getLastName()).equalsIgnoreCase(response)))
+					key.add(new Integer(i));
+				if ((list[i] instanceof Faculty && (((Faculty)list[i]).getID()).equalsIgnoreCase(response)))
+					key.add(new Integer(i));
+				if ((list[i] instanceof Student && (((Student)list[i]).getEmailAddress()).equalsIgnoreCase(response)))
+					key.add(new Integer(i));
+				if ((list[i] instanceof Faculty && (((Faculty)list[i]).getEmailAddress()).equalsIgnoreCase(response)))
+					key.add(new Integer(i));
+					
+else if (response.equalsIgnoreCase("2") && (list[0] instanceof Faculty || list[0] instanceof Student)) {
+         searchedKeys = searchForUser(list, response);
+            return searchedKeys;
+         }
+			
+else {
+			searchList = userList.toArray();
+			searchResults = searchList(searchList);
+			System.out.println();
+			System.out.println(searchResults.size() + " returned.");
+			
+			for (int i = 0; i <= searchResults.size() - 1; i++) {
+			results = (searchResults.get(i)).intValue();
+			System.out.println((userList.get(results)).toString());
+			}
+			} // end else
+			
+			System.out.println("Would you like to search for user information or add a new user?");
+			System.out.print("Please type (search) to search for user info or type (add) to add new user: ");
+			response = dataInput.next();
+			
+			while (!(response.equalsIgnoreCase("search") || response.equalsIgnoreCase("add"))) {
+         System.out.println("Invalid response, please type only (add) or (search) in any case.");
+			System.out.print("Please type (search) to search for user info or type (add) to add new user: ");
+         response = dataInput.next();   
+         } // end while
+      	
+			if (response.equalsIgnoreCase("add")) {	
+			
+			/////////////////
+			
+		
+               searchList = bookList.toArray();
+               searchResults = searchList(searchList);
+					
+					public static ArrayList<Integer> searchList(Object[] list) {
+         String response = "";
+         ArrayList<Integer> searchedKeys = new ArrayList<Integer>(); 
+         Scanner decide = new Scanner(System.in);
+         boolean throwError = true;   	
+      	
+         while (throwError) {
+            System.out.println();
+            System.out.println("What would you like to search for?");
+            System.out.println("**************PLEASE TYPE******************");
+            System.out.println("* (1) to search for Books                 *");
+            System.out.println("* (2) to search for Check Out Records     *");
+            System.out.print("Please enter one of the options above: ");
+            response = decide.nextLine();
+         
+            while (!(response.matches("[1-2]{1}"))) {
+               System.out.println("Invalid input, please type (1) to search books or (2) to search Check Out Records");
+               System.out.println("**************PLEASE TYPE******************");
+               System.out.println("* (1) to search for Books                 *");
+               System.out.println("* (2) to search for Check Out Records     *");
+               System.out.print("Please enter one of the options above: ");
+               response = decide.nextLine();
+            } // end while
+         
+            if (response.equalsIgnoreCase("1") && list[0] instanceof Book) {
+               searchedKeys = searchForBook(list, response);
+               return searchedKeys;
+            }
+            else if (response.equalsIgnoreCase("2") && list[0] instanceof CheckOutRecord) {
+            //key = searchForRecord(response);
+               return searchedKeys;
+            }    
+            else {
+               System.out.println("Error, the wrong option was chosen when trying to search for the requested data, please type the right option number to match your request.");
+               System.out.println("For example, if you want to search for user info, please choose option (2) and nothing else.");
+            }
+         } // end while
+      
+         return searchedKeys;
+      } // end searchList

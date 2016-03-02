@@ -1,0 +1,15 @@
+ ----jGRASP exec: java Welcome
+
+Welcome to Java
+This program will return the sum of two numbers!
+The sum of 5 and -4 is 1
+
+ ----jGRASP: operation complete.
+
+ ----jGRASP exec: java Welcome
+
+Welcome to Java
+This program will return the sum of two numbers!
+The sum of 0 and 0 is 0
+
+ ----jGRASP: operation complete.

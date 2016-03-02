@@ -1,0 +1,32 @@
+
+
+Case 1:
+ ----jGRASP exec: java TestStockObject
+
+---STOCK CHANGE RESULTS---
+
+COMPANY: Sun Microsystems Inc
+STOCK SYMBOL: SUNW
+
+PRICE FROM PREVIOUS DAY: $100.0
+CURRENT PRICE: $90.0
+
+PRICE PERCENTAGE CHANGE: -10.00% 
+ ----jGRASP: operation complete.
+
+
+
+
+Case 2:
+ ----jGRASP exec: java TestStockObject
+
+---STOCK CHANGE RESULTS---
+
+COMPANY: Sun Microsystems Inc
+STOCK SYMBOL: SUNW
+
+PRICE FROM PREVIOUS DAY: $50.0
+CURRENT PRICE: $90.0
+
+PRICE PERCENTAGE CHANGE: 80.00% 
+ ----jGRASP: operation complete.

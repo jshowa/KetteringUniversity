@@ -1,0 +1,71 @@
+Script started on Fri May 15 23:11:23 2009
+nova{howa1643}1% ls
+a.out*            outputTest.txt    science.txt       tail1.c           testgcc.c
+lab2              outputTest1.txt   tail1*            testOutput.txt    testgcc.o
+nova{howa1643}2% gcc tail1.c -o tail1     tail    custom   t_tail
+nova{howa1643}3% tail science.txt
+
+Drawing a Swiss army knife from his pocket, he sliced through the air beneath
+the top, and with the magnetic force interrupted, the top dropped to the
+ground.
+
+That's the sort of cortickling thing you learn at science centres - a Swiss
+Army knife not only has a tool for removing stones from horses' hooves but one
+for destroying adiabatic traps.
+
+*  Herstmonceux Science Centre is open daily 10am-6pm (tel 01323-832731), nearest stations Battle and Polgate. The International Study Centre offers limited accommodation (01323-834444).nova{howa1643}4% cust_tail science.txt
+
+Drawing a Swiss army knife from his pocket, he sliced through the air beneath
+the top, and with the magnetic force interrupted, the top dropped to the
+ground.
+
+That's the sort of cortickling thing you learn at science centres - a Swiss
+Army knife not only has a tool for removing stones from horses' hooves but one
+for destroying adiabatic traps.
+
+*  Herstmonceux Science Centre is open daily 10am-6pm (tel 01323-832731), nearest stations Battle and Polgate. The International Study Centre offers limited accommodation (01323-834444).
+nova{howa1643}5% tail -100c science.txt
+ions Battle and Polgate. The International Study Centre offers limited accommodation (01323-834444).nova{howa1643}6% cust_tail science.txt -c 100
+ions Battle and Polgate. The International Study Centre offers limited accommodation (01323-834444).nova{howa1643}7% tail -20 science.txt
+"It could finish us" Pizzey admitted. "It's bigger than anything we have dealt
+with before, but we have so many skills and such experience in this area that
+I'm sure it will succeed."
+
+To fund the serious side of Herstmonceux, therefore, customers must be
+attracted to the entertainments. It was this that made the Fabricators' Week
+with its display of potential new attractions so significant. It was clear that
+the spinning top had potential if it could be made more surprising.
+
+"What about this?" Prof Berry suggested. "I'll show you how to cut it down."
+
+Drawing a Swiss army knife from his pocket, he sliced through the air beneath
+the top, and with the magnetic force interrupted, the top dropped to the
+ground.
+
+That's the sort of cortickling thing you learn at science centres - a Swiss
+Army knife not only has a tool for removing stones from horses' hooves but one
+for destroying adiabatic traps.
+
+*  Herstmonceux Science Centre is open daily 10am-6pm (tel 01323-832731), nearest stations Battle and Polgate. The International Study Centre offers limited accommodation (01323-834444).nova{howa1643}8% cust_tail science.txt -n 20
+"It could finish us" Pizzey admitted. "It's bigger than anything we have dealt
+with before, but we have so many skills and such experience in this area that
+I'm sure it will succeed."
+
+To fund the serious side of Herstmonceux, therefore, customers must be
+attracted to the entertainments. It was this that made the Fabricators' Week
+with its display of potential new attractions so significant. It was clear that
+the spinning top had potential if it could be made more surprising.
+
+"What about this?" Prof Berry suggested. "I'll show you how to cut it down."
+
+Drawing a Swiss army knife from his pocket, he sliced through the air beneath
+the top, and with the magnetic force interrupted, the top dropped to the
+ground.
+
+That's the sort of cortickling thing you learn at science centres - a Swiss
+Army knife not only has a tool for removing stones from horses' hooves but one
+for destroying adiabatic traps.
+
+*  Herstmonceux Science Centre is open daily 10am-6pm (tel 01323-832731), nearest stations Battle and Polgate. The International Study Centre offers limited accommodation (01323-834444).
+nova{howa1643}9% ^D
+script done on Fri May 15 23:14:37 2009

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="51">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>ball.h</itemPath>
+      <itemPath>game_board.h</itemPath>
+      <itemPath>paddle.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>ball_func.c</itemPath>
+      <itemPath>game_board_func.c</itemPath>
+      <itemPath>Main.c</itemPath>
+      <itemPath>paddle_func.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>Cygwin|Cygwin</compilerSet>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <cCompilerTool>
+          <commandLine>-Wl,--enable-auto-import</commandLine>
+        </cCompilerTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerOptionItem>-lncurses</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Main.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="ball.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="ball_func.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="game_board.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="game_board_func.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="paddle.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="paddle_func.c">
+        <itemTool>0</itemTool>
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>Cygwin|Cygwin</compilerSet>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <cCompilerTool>
+          <developmentMode>5</developmentMode>
+        </cCompilerTool>
+        <ccCompilerTool>
+          <developmentMode>5</developmentMode>
+        </ccCompilerTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Main.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="ball.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="ball_func.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="game_board.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="game_board_func.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="paddle.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="paddle_func.c">
+        <itemTool>0</itemTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

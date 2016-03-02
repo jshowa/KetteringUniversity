@@ -1,0 +1,17 @@
+Jacob S. Howarth
+CS-101-07L, Spring 2007
+Lab 5 -- Sudoku Check
+
+I/O Formats
+
+Input:
+
+The input is a file containing the sudoku puzzle solutions, partial solutions, and incorrect solutions.
+The file is read by a scanner and the file is turned into a two dimensional array in order to perform
+the checks. The file is printed to the console in a table format when it is read into the program
+
+Output:
+
+The ouput is generated through the System class. The output is printed to the console through System.out.print,
+which prints if the solution is correct, partially correct, or false. The sudoku puzzle is also printed
+to the console as well for validation of the answer. 

@@ -1,0 +1,153 @@
+Script started on Sat May 16 12:38:29 2009
+nova{howa1643}1% ls
+Main.class         maxSum.class       testOutputA3.txt
+Main.java          maxSum.java
+nova{howa1643}2% javac Main.java
+nova{howa1643}3% java Main
+Please enter an array size: 5
+Enter an integer: -4
+Enter an integer: -6
+Enter an integer: -8
+Enter an integer: -9
+Enter an integer: -12
+
+*********OPTION MENU*********
+*                           *
+* Please select an option   *
+* below:                    *
+*                           *
+* 1. Brute Force Algorithm  *
+*                           *
+* 2. Divide and Conquer     *
+*    Algorithm              *
+*                           *
+*****************************
+
+Please select an option: 1
+The max contiguous sum is 0 in the interval -1 to -1
+nova{howa1643}4% java Main
+Please enter an array size: 5
+Enter an integer: -4
+Enter an integer: -6
+Enter an integer: -8
+Enter an integer: -9
+Enter an integer: -12
+
+*********OPTION MENU*********
+*                           *
+* Please select an option   *
+* below:                    *
+*                           *
+* 1. Brute Force Algorithm  *
+*                           *
+* 2. Divide and Conquer     *
+*    Algorithm              *
+*                           *
+*****************************
+
+Please select an option: 32  2
+The max contiguous sum is 0 in the interval -1 to -1
+nova{howa1643}5% javaMain     Main
+Please enter an array size: 6
+Enter an integer: -1
+Enter an integer: 20
+Enter an integer: -6
+Enter an integer: 5
+Enter an integer: 40
+Enter an integer: -2
+
+*********OPTION MENU*********
+*                           *
+* Please select an option   *
+* below:                    *
+*                           *
+* 1. Brute Force Algorithm  *
+*                           *
+* 2. Divide and Conquer     *
+*    Algorithm              *
+*                           *
+*****************************
+
+Please select an option: 1
+The max contiguous sum is 59 in the interval 1 to 4
+nova{howa1643}6% java Main
+Please enter an array size: 6
+Enter an integer: -1
+Enter an integer: 20
+Enter an integer: -6
+Enter an integer: 5
+Enter an integer: 40
+Enter an integer: -2
+
+*********OPTION MENU*********
+*                           *
+* Please select an option   *
+* below:                    *
+*                           *
+* 1. Brute Force Algorithm  *
+*                           *
+* 2. Divide and Conquer     *
+*    Algorithm              *
+*                           *
+*****************************
+
+Please select an option: . 2
+The max contiguous sum is 59 in the interval 1 to 4
+nova{howa1643}7% javaMain     Mqai   ain
+Please enter an array size: 11
+Enter an integer: 12
+Enter an integer: -34
+Enter an integer: 40
+Enter an integer: 6
+Enter an integer: -10
+Enter an integer: 56
+Enter an integer: 12
+Enter an integer: -1
+Enter an integer: -15
+Enter an integer: 10
+Enter an integer: 4
+
+*********OPTION MENU*********
+*                           *
+* Please select an option   *
+* below:                    *
+*                           *
+* 1. Brute Force Algorithm  *
+*                           *
+* 2. Divide and Conquer     *
+*    Algorithm              *
+*                           *
+*****************************
+
+Please select an option: 1
+The max contiguous sum is 104 in the interval 2 to 6
+nova{howa1643}8% java Main
+Please enter an array size: 11
+Enter an integer: 12
+Enter an integer: -34
+Enter an integer: 40
+Enter an integer: 6
+Enter an integer: -10
+Enter an integer: 56
+Enter an integer: 12
+Enter an integer: -1
+Enter an integer: -+^H   15
+Enter an integer: 10
+Enter an integer: 4
+
+*********OPTION MENU*********
+*                           *
+* Please select an option   *
+* below:                    *
+*                           *
+* 1. Brute Force Algorithm  *
+*                           *
+* 2. Divide and Conquer     *
+*    Algorithm              *
+*                           *
+*****************************
+
+Please select an option: 2
+The max contiguous sum is 104 in the interval 2 to 6
+nova{howa1643}9% ^D
+script done on Sat May 16 12:41:47 2009

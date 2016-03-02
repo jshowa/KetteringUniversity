@@ -1,0 +1,35 @@
+Jacob Howarth
+CS-101-07L, Spring 2007
+Lab 6 -- Tortoise and Hare
+
+Algorithms:
+
+(Tortoise Class:)
+
+1. Tortoise()
+
+1a. position = 1
+
+2. tortoiseMove()
+
+2a. randomNum2 = random2.nextInt(9)
+
+2b. if (randomNum2 is 0 - 4)
+
+2c. position += 3
+
+2d. else if (randomNum2 is 5 - 6)
+
+2e. position -= 6
+
+2f. else (randomNum2 is 7 - 9)
+
+2g. position += 1
+
+2h. if (position is negative)
+
+2i. position = 1
+
+3. getPosition()
+
+3a. return position

@@ -1,0 +1,18 @@
+!516;s
+A
+SAU0PATH+=%<JGRASP_PATHS>%;
+SCU0PATH+=%<JGRASP_PATHS>%;
+S+U0PATH+=%<JGRASP_PATHS>%;
+SJU0CLASSPATH=+%;%<EXTENSION_CLASSPATHS>\012CLASSPATH+=%<JGRASP_CLASSPATHS>%;\012CLASSPATH+=.%;\012PATH+=%<JAVA_BIN_DIR>%;\012PATH+=%<JGRASP_PATHS>%;\012Compile\012NOT_FOUND_MESSAGE==Make sure you have the full JDK (J2SE SDK or other), not just the JRE, installed.\\nThe J2SE SDK is available from java.sun.com.\012Run_Applet +Debug_Applet\012ADD_APPLETVIEWER_CLASSPATH==Y\012
+SOU0PATH+=%<JGRASP_PATHS>%;
+SPU0
+s#i0
+s#k0
+s#j0
+s#l0
+!1302;d
+[\012  grasp [\012   legendy -61.931034482758605\012   legendx 34.64814814814815\012   winflags 2\012   height 427\012   width 378\012   wbp 0\012   initlayout 0\012   yoffs -61.931034482758605\012   xoffs 34.64814814814815\012   scale 1.0\012   args ""\012   otherflags 139\012   visflags 118423679\012  ]\012  directed 1\012  node [\012   ClassInfo [\012    fields "SudokuCheck\\011()V\\011c\\0110\\011\\011\\011SudokuCheck\011arrayCreate\\011(Ljava/util/Scanner;)[[I\\011\\0119\\011\\011\\011SudokuCheck\011checkColumn\\011([[I)Z\\011\\0119\\011\\011\\011SudokuCheck\011checkRow\\011([[I)Z\\011\\0119\\011\\011\\011SudokuCheck\011main\\011([Ljava/lang/String;)V\\011\\0119\\011\\011\\011SudokuCheck\011miniGrid\\011([[I)Z\\011\\0119\\011\\011\\011SudokuCheck\011miniGridHelper\\011([[III)Z\\011\\0119\\011\\011\\011SudokuCheck\011printArray\\011([[I)V\\011\\0119\\011\\011\\011SudokuCheck"\012    condition 0\012    access2 0\012    access 147552\012    classname "SudokuCheck"\012    fromclassfiledate 1179530737593\012    fromclassfilename "%\011SudokuCheck.class"\012    fromfilename "%\011SudokuCheck.java"\012   ]\012   id 0\012   graphics [\012    center [\012     x 34.64814814814815\012     y -21.431034482758605\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012 ]!36;a
+a%\011SudokuCheck_Project_doc%s	b	c1!22;g
+%\011SudokuCheck.java
+!19;f
+%	SudokuCheck.java

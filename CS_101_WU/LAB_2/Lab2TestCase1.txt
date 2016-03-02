@@ -1,0 +1,48 @@
+
+
+TEST CASE 1: USE CONSOLE AS I/O.
+
+ ----jGRASP exec: java EmployeeWeeklyPay
+
+Enter the name of the employee (First Name/Last Name): Changhua Wu
+Enter number of hours worked for the week: 40
+Enter pay rate per hour: 21.5
+Enter Federal Tax Withholding Rate (in decimal): .20
+Enter State Tax Withholding Rate (in decimal): .09
+
+			 --PAYROLL STATEMENT--  
+EMPLOYEE NAME: Changhua Wu
+HOURS WORKED: 40.0
+PAY RATE: $21.50
+GROSS PAY: $860.00
+DEDUCTIONS: 
+	FEDERAL WITHHOLDING (20.0%): $172.00
+	STATE WITHHOLDING (9.0%): $77.40
+	TOTAL DEDUCTIONS: $249.40
+NET PAY: $610.60
+
+ ----jGRASP: operation complete.
+
+
+TEST CASE 2: USE CONSOLE AS I/O.
+
+ ----jGRASP exec: java EmployeeWeeklyPay
+
+Enter the name of the employee (First Name/Last Name): Stan Liberty
+Enter number of hours worked for the week: 40
+Enter pay rate per hour: 100000
+Enter Federal Tax Withholding Rate (in decimal): .0001
+Enter State Tax Withholding Rate (in decimal): .0001
+
+			 --PAYROLL STATEMENT--  
+EMPLOYEE NAME: Stan Liberty
+HOURS WORKED: 40.0
+PAY RATE: $100000.00
+GROSS PAY: $4000000.00
+DEDUCTIONS: 
+	FEDERAL WITHHOLDING (0.01%): $400.00
+	STATE WITHHOLDING (0.01%): $400.00
+	TOTAL DEDUCTIONS: $800.00
+NET PAY: $3999200.00
+
+ ----jGRASP: operation complete.

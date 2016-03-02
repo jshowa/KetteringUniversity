@@ -1,0 +1,119 @@
+Jacob Howarth
+CS-101-07L, Spring 2007
+Lab 5 -- Sudoku Checker
+
+Algorithms:
+
+(main method:)
+
+1. Print Identification Information
+
+2. Import a file
+
+2a. Scanner(Scan for files)
+
+2b. while(print each sudoku in each file)
+
+2c. print each sudoku table
+
+3. Store sudoku table
+
+4. Print sudoku table result
+
+5. Validate each puzzle, print incorrect message for each (System.out.print)
+
+5a. if(numbers 1-9 repeated in rows) is true
+
+5b. if(numbers 1-9 repeated in columns) is true
+
+5c. if(numbers 1-9 repeated in 3 by 3 grids) is true
+
+5d. print false for all true if's
+
+5e. else(print correct for puzzle validation)
+
+(arrayCreate method:)
+
+1. take input file
+
+2. for(each line and column in 9 by 9 array)
+
+2a. construct each line and column from file into 9 by 9 array
+
+2b. return 9 by 9 array when called in main
+
+(printArray method:)
+
+1. for(each row and column in array)
+
+1a. System.out.print(array columns and rows)
+
+1b. System.out.print(print array in special format)
+
+2. if(every 3 columns and every 3 rows)
+
+2a. System.out.print(spacing)
+
+3. if(for every 3 rows down)
+
+3a. System.out.print(line break)
+
+(checkRow method:)
+
+1. create check array (boolean array) with all true values in each index
+
+1a. for(each column and row)
+
+1b. check each column within a row with check array (boolean array)
+
+2. for(all rows in 9 by 9 array)
+
+2a. if(value of each position within the row in 9 by 9 array is true)
+
+2b. turn check array index of the same vlaue to false 
+
+3. else if(value of a position within the row is repeated)
+
+3a. return sudoku incorrect
+
+(checkColumn method:)
+
+1. create check array (boolean array) with all true values in each index
+
+2. for(each column and row)
+
+2a. if(the value of each position within the column in the 9 by 9 array is true)
+
+2b. turn check array index of the same value to false
+
+3. else if(value of position in the column is repeated)
+
+3a. return sudoku incorrect
+
+(miniGridHelper method:)
+
+1. create check array (boolean array) with all true values for each 3 by 3 mini grid
+
+2. for(mini grid column and row)
+
+2a. set check array indexes to false according to mini grid position
+
+2b. if(value of position in each row or column of the mini grid is repeated)
+
+2c. return sudoku incorrect
+
+(miniGrid method:)
+
+1. Generate a boolean variable
+
+2. Look at each 3 by 3 mini grid 
+
+2a. call miniGridHelper to check each mini grid
+
+2b. if(the grids are not false)
+
+2c. return the value of v
+
+2d. if(the grids are not true)
+
+2e. return original v value

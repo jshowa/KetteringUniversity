@@ -1,0 +1,15 @@
+0, George, Smith, 11023, 810-809-8383, gsm@kettering.edu, 348
+0, Calvin, Diep, 16454, 810-510-0493, diep1645@kettering.edu, 318
+0, Jacob, Howarth, 16434, 810-931-1847, howa1643@kettering.edu, heaven
+1, Changhua, Wu, 91123, 810-762-5160, cwu@kettering.edu, 407
+1, God, Mode, 00000, 810-762-5268, god@kettering.edu, cloud9
+0, Jacob, Howarth, 12345, 810-736-5268, jacob.howarth@gmail.com, 301
+0, Jack, Freedom, 86754, 810-987-2345, free6754@kettering.edu, 3120
+1, Stan, Liberty, 11111, 810-762-5800, liberty1111@kettering.edu, 0001
+0, Ron, Masters, 61236, 810-745-6321, mast1236@kettering.edu, 432
+0, Jack, Landron, 77777, 505-640-0000, land7777@kettering.edu, 3210
+1, Santa, Claus, 55555, 810-333-3333, OhTheWeatherOutsideIsFrightful@northpole.com, 7070
+1, Brian, McCartin, 76742, 810-954-5000, mccartin6742@kettering.edu, 3000
+0, Sunny, Jone, 23456, 810-933-3333, sunshine@comcast.net, 2340
+0, Jack, Howard, 22223, 810-585-7858, howard7@comcast.net, 12345
+0, Jason, Holt, 34567, 810-567-8756, holt4567@kettering.edu, 210

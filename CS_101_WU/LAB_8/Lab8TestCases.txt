@@ -1,0 +1,31 @@
+ 
+12/4/07 9:43PM TestCase1 file: input.txt
+----jGRASP exec: java TestGeoObjects input.txt
+
+Circle: --> radius: 5.0 area: 78.53981633974483 circumference: 31.41592653589793
+Circle: --> radius: 8.0 area: 201.06192982974676 circumference: 50.26548245743669
+Triangle --> sides: 3.0 4.0 5.0 area: 6.0 perimeter: 12.0
+Triangle --> sides: 5.0 8.0 4.0 area: 8.181534085976786 perimeter: 17.0
+Triangle --> sides: 3.0 7.0 5.0 area: 6.49519052838329 perimeter: 15.0
+Rectangle --> length: 4.0 width: 6.0 area: 24.0 perimeter: 20.0
+Rectangle --> length: 3.0 width: 5.0 area: 15.0 perimeter: 16.0
+Triangle --> sides: 9.0 10.0 11.0 area: 42.42640687119285 perimeter: 30.0
+Circle: --> radius: 7.0 area: 153.93804002589985 circumference: 43.982297150257104
+
+The sum of the areas of the geometric objects = 535.64
+The sum of the perimeters of the geometric objects = 235.66
+
+12/4/07 9:57PM TestCase2 file: input2.txt
+ ----jGRASP exec: java TestGeoObjects input2.txt
+
+Triangle --> sides: 3.0 4.0 5.0 area: 6.0 perimeter: 12.0
+Circle: --> radius: 8.0 area: 201.06192982974676 circumference: 50.26548245743669
+Circle: --> radius: 10.0 area: 314.1592653589793 circumference: 62.83185307179586
+Rectangle --> length: 4.0 width: 6.0 area: 24.0 perimeter: 20.0
+Rectangle --> length: 5.0 width: 8.0 area: 40.0 perimeter: 26.0
+Triangle --> sides: 8.0 6.0 10.0 area: 24.0 perimeter: 24.0
+
+The sum of the areas of the geometric objects = 609.22
+The sum of the perimeters of the geometric objects = 195.10
+
+ ----jGRASP: operation complete.

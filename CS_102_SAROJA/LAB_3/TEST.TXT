@@ -1,0 +1,5 @@
+The electric field inside a conductor is zero because the charge
+in a conductor distributes on the surface of the conductor. This
+effectively creates a Faraday cage, shielding any object holding
+charge inside a conductor from the outside dangerous voltages. I
+have some flowers; they are red, orange, blue: Pineapples.

@@ -1,0 +1,9 @@
+Script started on Tue May 19 08:41:55 2009
+nova{howa1643}1% ls
+a.out*             lab2               sttyl.c            testOutput.txt
+cleanCompile.txt   outputTest.txt     tail1*             testgcc.c
+compileTest.txt    outputTest1.txt    tail1.c            testgcc.o
+cust_tail*         science.txt        test.stty
+nova{howa1643}2% gcc sttyl.c -Wall -o sttyl
+nova{howa1643}3% ^D
+script done on Tue May 19 08:42:29 2009

@@ -1,0 +1,9 @@
+John Parlmer 20 89 60 78
+Mark Twain   19 89 67 80
+Poor Guy     20 30 56 40
+Genius Boy   19 100 100 100
+Jon Carlson  20 76 34 65
+Mark Johnson 20 78 86 96
+Wells Jackson 18 45 80 78
+Clark Peterson 19 87 84 88
+Ryan Davison   20 90 93 91

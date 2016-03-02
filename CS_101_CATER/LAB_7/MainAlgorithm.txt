@@ -1,0 +1,69 @@
+Jacob Howarth
+CS-101-07L, Spring 2007
+Lab 6 -- Tortoise and Hare
+
+Algorithms
+
+(main:)
+
+1. Hare h = new Hare()
+
+1a. Tortoise t = new Tortoise()
+
+2. Print identification information
+
+3. Print start indicator
+
+4. while (tortoise and hares position < 70)
+
+5. move()
+
+6. if (tortoise's position or hare's position >= 70)
+
+6a. break loop
+
+7. printPosition() for each iteration of loop until one object reaches position = 70
+
+8. if (tortoise's position is >= 70 && hare's position is < 70)
+
+8a. print tortoise wins
+
+9. if (tortoise's position is >= 70 && hare's position is < 70)
+
+9a. print hare wins
+
+10. else (both tie)
+
+10a. print both tie
+
+(move:)
+
+1. call object classes hareMove() to move Hare
+
+2. call object classes tortoiseMove() to move Tortoise
+
+(printPosition:)
+
+1. for (int i = 1; i < 71; i++)
+
+1a. for loop checks each sqaure to validate tortoise and hare position
+
+2. if (tortoise and hare positions are equal)
+
+2a. Print OUCH!!!
+
+2b. decrease the loop iteration by i += 5 because OUCH!!! takes up 5 extra squares
+
+3. if (hare's position equals i)
+
+3a. print H on that square
+
+4. if (tortoise's position equals i)
+
+4a. print T on that sqaure
+
+5. else 
+     print white space on every position
+
+6. print new line for each result
+

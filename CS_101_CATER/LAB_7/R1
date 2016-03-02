@@ -1,0 +1,81 @@
+Script started on Tue May 22 01:54:56 2007
+nova{howa1643}1% java Race
+Jacob Howarth
+CS-101-07L, Spring 2007
+Lab 6 -- Tortosie and Hare
+
+BANG!!! AND THERE OFF!!!
+H  T                                                                  
+ H    T                                                               
+ H     T                                                              
+        T H                                                           
+  T        H                                                          
+     T     H                                                          
+        T                                                             
+        H  T                                                          
+     T   H                                                            
+H     T                                                               
+H        T                                                            
+H           T                                                         
+H              T                                                      
+ H                T                                                   
+ H                   T                                                
+H                       T                                             
+ H                         T                                          
+          H          T                                                
+           H   T                                                      
+         H        T                                                   
+         H           T                                                
+         H     T                                                      
+         OUCH!!!                                                       
+H         T                                                           
+ H           T                                                        
+  H             T                                                     
+   H               T                                                  
+ H                    T                                               
+ H                       T                                            
+ H                 T                                                  
+          H           T                                               
+H                      T                                              
+ H                        T                                           
+  H                          T                                        
+H                               T                                     
+         H                       T                                    
+                  H        T                                          
+                  H         T                                         
+                   H           T                                      
+       H                          T                                   
+H                           T                                         
+         H                   T                                        
+          H            T                                              
+                   H    T                                             
+                    H      T                                          
+                    H         T                                       
+                     H           T                                    
+                     H              T                                 
+                      H              T                                
+                    H                   T                             
+        H                                  T                          
+        H                                   T                         
+H                                              T                      
+ H                                                T                   
+          H                                        T                  
+                   H                                  T               
+                    H                                  T              
+                     H                                    T           
+                     H                                     T          
+                     H                                      T         
+                      H                               T               
+                    H                                    T            
+                             H                            T           
+                                      H                      T        
+                                      H                T              
+                                       H                T             
+                                        H                  T          
+                                                 H            T       
+                                                  H              T    
+                                      H                           T   
+TORTOISE WINS!!! YAY!!!
+nova{howa1643}2% exit
+nova{howa1643}3% 
+script done on Tue May 22 01:55:21 2007

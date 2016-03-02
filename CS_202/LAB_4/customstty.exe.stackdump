@@ -1,0 +1,13 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=610DED8F
+eax=00402396 ebx=00000000 ecx=00402396 edx=00000000 esi=611021A0 edi=004019DC
+ebp=0022CBB8 esp=0022CBB4 program=c:\Documents and Settings\jshowa\My Documents\NetBeansProjects\CustomSTTY\dist\Debug\Cygwin-Windows\customstty.exe, pid 3068, thread main
+cs=001B ds=0023 es=0023 fs=003B gs=0000 ss=0023
+Stack trace:
+Frame     Function  Args
+0022CBB8  610DED8F  (00000000, 00402396, 0022CCEA, 00000000)
+0022CBD8  004011EC  (0022CC10, 00661CD0, 00000005, 00401075)
+0022CC48  004010DA  (00000005, 00661CD0, 00660090, 20642030)
+0022CD98  610060D8  (00000000, 0022CDD0, 61005450, 0022CDD0)
+61005450  61004416  (0000009C, A02404C7, E8611021, FFFFFF48)
+ 434112 [main] customstty 3068 _cygtls::handle_exceptions: Exception: STATUS_ACCESS_VIOLATION
+ 450830 [main] customstty 3068 _cygtls::handle_exceptions: Error while dumping state (probably corrupted stack)

@@ -1,0 +1,148 @@
+Jacob S. Howarth
+Cs-101-07L, Spring 2007
+Lab 7 -- Day Class
+
+
+Algorithms:
+
+setYear(int year)
+  this.year = year
+
+setMonth(int month)
+  this.month = month
+
+setDay(int day)
+  this.day = day
+
+nextDay()
+  JD = JDinstance() + 1
+  a = JD + 32044
+  b = (4 * a + 3) / 146097
+  c = a - (146097 * b) / 4
+  d = (4 * c + 3) / 1461
+  e = c - (1461 * d) / 4
+  m = (5 * e + 2) / 153
+  this.day = e - (153 * m + 2) / 5 + 1
+  this.month = m + 3 - 12 * (m / 10)
+  this.year = 100 * b + d - 4800 + m / 10
+
+previousDay()
+  JD = JDinstance() - 1
+	 
+  a = JD + 32044;
+  b = (4 * a + 3) / 146097
+  c = a - (146097 * b) / 4
+	 
+  d = (4 * c + 3) / 1461
+  e = c - (1461 * d) / 4
+  m = (5 * e + 2) / 153
+	 
+  this.day = e - (153 * m + 2) / 5 + 1
+  this.month = m + 3 - 12 * (m / 10)
+  this.year = 100 * b + d - 4800 + m / 10
+
+daysBetween(Day d)
+  JD = JDinstance()
+  JDd = JDargument(d)
+  
+  dayDifference = JD - JDd
+  
+  return dayDifference
+
+addDays(int numberofDays)
+  JD = JDinstance() + numberOfDays
+	 
+  a = JD + 32044
+  b = (4 * a + 3) / 146097
+  c = a - (146097 * b) / 4
+	 
+  d = (4 * c + 3) / 1461
+  e = c - (1461 * d) / 4
+  m = (5 * e + 2) / 153
+	 
+  day = e - (153 * m + 2) / 5 + 1
+  month = m + 3 - 12 * (m / 10)
+  year = 100 * b + d - 4800 + m / 10
+	 
+  Day newDay = new Day(year, month, day)
+	 
+  return newDay
+
+before(Day d)
+  if (JDinstance() < JDargument(d)) 
+  return true
+  
+  else (JDinstance() > JDargument(d))
+  return false
+
+after(Day d)
+  if (JDinstance() > JDargument(d)) 
+  return true
+  
+  else (JDinstance() < JDargument(d))
+  return false
+
+equals(Day d)
+  if (JDinstance() == JDargument(d)) 
+  return true
+
+  else (JDinstance() != JDargument(d))
+  return false
+
+compareTo(Day d)
+  if (JDinstance() == JDargument(d))
+  return 0
+  
+  else if (JDinstance() > JDargument(d)) 
+  return positive number
+  
+  else if (JDinstance() < JDargument(d)) 
+  return negative number
+  
+  else (other conditions fail)
+  return 0
+
+toString()
+  return this.month + "/" + this.day + "/" + this.year
+
+JDCalcToday()
+  currentTime = System.currentTimeMillis()
+  totalDay = (int)(currentTime / 1000 / 3600 / 24)
+	 
+  JD = totalDay + EPOCH
+	 
+  a = JD + 32044
+  b = (4 * a + 3) / 146097
+  c = a - (146097 * b) / 4
+	 
+  d = (4 * c + 3) / 1461
+  e = c - (1461 * d) / 4
+  m = (5 * e + 2) / 153
+	 
+  day = e - (153 * m + 2) / 5 + 1
+  month = m + 3 - 12 * (m / 10)
+  year = 100 * b + d - 4800 + m / 10
+
+JDinstance()
+
+  a = (14 - this.month) / 12
+  y = this.year + 4800 - a
+  m = this.month + 12 * a - 3
+	 
+  JD = this.day + (153 * m + 2) / 5 + 365 * y + y / 4 - y / 100 + y / 400 - 32045
+	 
+  return JD
+
+JDargument(Day d)
+
+  a = (14 - d.getMonth()) / 12
+  y = d.getYear() + 4800 - a
+  m = d.getMonth() + 12 * a - 3
+	 
+  JDd = d.getDay + (153 * m + 2) / 5 + 365 * y + y / 4 - y / 100 + y / 400 - 32045
+	 
+  return JDd
+
+
+  
+

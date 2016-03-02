@@ -1,0 +1,105 @@
+JAVA PROFILE 1.0.1, created Mon Jun 01 23:09:33 2009
+
+Header for -agentlib:hprof (or -Xrunhprof) ASCII Output (JDK 5.0 JVMTI based)
+
+@(#)jvm.hprof.txt	1.5 06/01/28
+
+ Copyright (c) 2006 Sun Microsystems, Inc. All  Rights Reserved.
+
+WARNING!  This file format is under development, and is subject to
+change without notice.
+
+This file contains the following types of records:
+
+THREAD START
+THREAD END      mark the lifetime of Java threads
+
+TRACE           represents a Java stack trace.  Each trace consists
+                of a series of stack frames.  Other records refer to
+                TRACEs to identify (1) where object allocations have
+                taken place, (2) the frames in which GC roots were
+                found, and (3) frequently executed methods.
+
+HEAP DUMP       is a complete snapshot of all live objects in the Java
+                heap.  Following distinctions are made:
+
+                ROOT    root set as determined by GC
+                CLS     classes 
+                OBJ     instances
+                ARR     arrays
+
+SITES           is a sorted list of allocation sites.  This identifies
+                the most heavily allocated object types, and the TRACE
+                at which those allocations occurred.
+
+CPU SAMPLES     is a statistical profile of program execution.  The VM
+                periodically samples all running threads, and assigns
+                a quantum to active TRACEs in those threads.  Entries
+                in this record are TRACEs ranked by the percentage of
+                total quanta they consumed; top-ranked TRACEs are
+                typically hot spots in the program.
+
+CPU TIME        is a profile of program execution obtained by measuring
+                the time spent in individual methods (excluding the time
+                spent in callees), as well as by counting the number of
+                times each method is called. Entries in this record are
+                TRACEs ranked by the percentage of total CPU time. The
+                "count" field indicates the number of times each TRACE 
+                is invoked.
+
+MONITOR TIME    is a profile of monitor contention obtained by measuring
+                the time spent by a thread waiting to enter a monitor.
+                Entries in this record are TRACEs ranked by the percentage
+                of total monitor contention time and a brief description
+                of the monitor.  The "count" field indicates the number of 
+                times the monitor was contended at that TRACE.
+
+MONITOR DUMP    is a complete snapshot of all the monitors and threads in 
+                the System.
+
+HEAP DUMP, SITES, CPU SAMPLES|TIME and MONITOR DUMP|TIME records are generated 
+at program exit.  They can also be obtained during program execution by typing 
+Ctrl-\ (on Solaris) or by typing Ctrl-Break (on Win32).
+
+--------
+
+THREAD START (obj=500003d5, id = 200002, name="HPROF gc_finish watcher", group="system")
+THREAD START (obj=500003d5, id = 200001, name="main", group="main")
+THREAD END (id = 200005)
+THREAD START (obj=500003d5, id = 200006, name="*** Profiler Agent Special Execution Thread 7", group="main")
+THREAD START (obj=500003db, id = 200007, name="Thread-2", group="main")
+THREAD END (id = 200007)
+THREAD END (id = 200004)
+THREAD END (id = 200006)
+THREAD END (id = 200001)
+THREAD END (id = 200002)
+TRACE 300244:
+	java.net.SocketInputStream.read(SocketInputStream.java:Unknown line)
+TRACE 300676:
+	java.lang.Thread.join(Thread.java:Unknown line)
+TRACE 300619:
+	org.netbeans.lib.profiler.server.ProfilerServer.waitForShutdownOK(ProfilerServer.java:Unknown line)
+TRACE 300284:
+	java.lang.Object.wait(Object.java:Unknown line)
+TRACE 300368:
+	java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:Unknown line)
+TRACE 300544:
+	org.netbeans.lib.profiler.server.ProfilerServer.handleClientCommand(ProfilerServer.java:Unknown line)
+TRACE 300673:
+	org.netbeans.lib.profiler.server.ProfilerServer.cleanupOnShutdown(ProfilerServer.java:Unknown line)
+TRACE 300424:
+	sun.nio.cs.SingleByteEncoder.encodeArrayLoop(SingleByteEncoder.java:Unknown line)
+TRACE 300628:
+	java.lang.StringBuffer.append(StringBuffer.java:Unknown line)
+CPU TIME (ms) BEGIN (total = 11452) Mon Jun 01 23:09:38 2009
+rank   self  accum   count trace method
+   1 30.83% 30.83%      52 300244 java.net.SocketInputStream.read
+   2 30.56% 61.40%       2 300676 java.lang.Thread.join
+   3 30.43% 91.83%       1 300619 org.netbeans.lib.profiler.server.ProfilerServer.waitForShutdownOK
+   4  7.50% 99.33%       8 300284 java.lang.Object.wait
+   5  0.14% 99.47%      24 300368 java.net.SocketOutputStream.socketWrite
+   6  0.14% 99.61%       6 300544 org.netbeans.lib.profiler.server.ProfilerServer.handleClientCommand
+   7  0.13% 99.74%       1 300673 org.netbeans.lib.profiler.server.ProfilerServer.cleanupOnShutdown
+   8  0.13% 99.87%      24 300424 sun.nio.cs.SingleByteEncoder.encodeArrayLoop
+   9  0.13% 100.00%       2 300628 java.lang.StringBuffer.append
+CPU TIME (ms) END

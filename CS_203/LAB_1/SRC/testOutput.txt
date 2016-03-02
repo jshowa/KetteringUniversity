@@ -1,0 +1,52 @@
+Test Output:
+
+
+{nova}:/home/student/howa1643/CS203/A1>java Main
+Please enter a valid file name with extension: testfile3.txt
+
+President Obama is launching an effort "to achieve a comprehensive peace in the Middle East," 
+his spokesman said Tuesday. Obama has invited key regional leaders to Washington in the coming 
+weeks for consultations on the peace process, Robert Gibbs said. Obama wants to meet separately 
+with Egyptian President Hosni Mubarak, Israeli Prime Minister Benjamin Netanyahu and Palestinian Authority President Mahmoud 
+Abbas, Gibbs told reporters. Dates for the visits are still being worked out, he said. 
+Obama met Tuesday with Jordan's King Abdullah II. "With each of them, the president will 
+discuss ways the United States can strengthen and deepen our partnerships with them, as well 
+as the steps all parties must take to help achieve peace between Israelis and Palestinians 
+and between Israel and the Arab states," Gibbs said. The leadership of Hamas, considered by 
+the United States and Israel to be a terrorist organization, is not being invited. The 
+group, which also provides social services, won elections in the Palestinian territories in 2006, prompting 
+stringent sanctions from the West. After the election, skirmishes between Abbas' Fatah and Hamas escalated, 
+ending with Hamas in charge in Gaza and the Fatah-led Palestinian Authority in charge in 
+the West Bank. A six-month cease-fire between Hamas and Israel ended late last year and 
+was followed by Israel's three-week incursion into Gaza. Israel said that operation was aimed at 
+halting rocket and mortar fire on its southern towns and communities. Despite a cease-fire called 
+in January at the end of that fight, both Hamas rocket fire and Israeli airstrikes 
+have continued. Obama appointed a special Middle East envoy on his second full day in 
+office -- former Sen. George Mitchell -- and dispatched him to the region within weeks. 
+Last week, during his third trip to the region since his appointment, Mitchell reiterated the 
+U.S. desire to see a "two-state solution" in the Middle East, bringing speculation that the 
+United States and Israel's new right-leaning government could be on a collision-course. Netanyahu has indicated 
+he wants serious negotiations with the Palestinians to continue, but he has not explicitly stated 
+his support for Palestinian statehood. Questions about the new Israeli government's commitment to a negotiated 
+peace process came up when the nationalist politician and new Foreign Minister Avigdor Lieberman declared 
+the Annapolis process "null and void." The Annapolis process, launched by the Bush administration, paved 
+the way for the resumption of Israeli and Palestinian talks after they stopped earlier in 
+the decade. The United States has been making on-again, off-again forays into solving the Middle 
+East crisis for decades. Don't Miss Obama condemns Iranian leader's comments U.S. boycotts racism conference 
+Former President Bush made a push late in his term, convening a peace conference at 
+Annapolis, near Washington, at the end of 2007. "The parties have said they are going 
+to make efforts to conclude this during the president's term. That's what we will try 
+and do," then-Secretary of State Condoleezza Rice said in November 2007, a week before the 
+conference. Bill Clinton hammered away at the problem as president in the 1990s, bringing together 
+Palestinian leader Yasser Arafat, King Hussein of Jordan, and Prime Minister Ehud Barak of Israel 
+at Camp David in the last year of his presidency. They failed to reach a 
+deal. Arafat and Hussein have since died. Barak is defense minister under Israeli Prime Minister 
+Netanyahu in a right-leaning government. Israeli Foreign Minister Avigdor Lieberman, a hardliner, said last week 
+the "traditional approach" to Middle East peacemaking "has so far brought neither results nor solutions" 
+and that the "diplomatic process has reached a dead end," according to a press release 
+from his ministry. 
+
+The three most repeated words based on the first occurrence of each word in the article are:
+the=42
+and=22
+in=17

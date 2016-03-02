@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="51">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>smsh.h</itemPath>
+      <itemPath>stack.h</itemPath>
+      <itemPath>varlib.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>builtin.c</itemPath>
+      <itemPath>controlflow.c</itemPath>
+      <itemPath>execute2.c</itemPath>
+      <itemPath>process2.c</itemPath>
+      <itemPath>smsh4.c</itemPath>
+      <itemPath>splitline.c</itemPath>
+      <itemPath>stack.c</itemPath>
+      <itemPath>varlib.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>Cygwin|Cygwin</compilerSet>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="builtin.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="controlflow.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="execute2.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="process2.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="smsh.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="smsh4.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="splitline.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="stack.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="stack.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="varlib.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="varlib.h">
+        <itemTool>3</itemTool>
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>Cygwin|Cygwin</compilerSet>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <cCompilerTool>
+          <developmentMode>5</developmentMode>
+        </cCompilerTool>
+        <ccCompilerTool>
+          <developmentMode>5</developmentMode>
+        </ccCompilerTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="builtin.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="controlflow.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="execute2.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="process2.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="smsh.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="smsh4.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="splitline.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="stack.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="stack.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="varlib.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="varlib.h">
+        <itemTool>3</itemTool>
+      </item>
+    </conf>
+    <conf name="NewConfiguration" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>Cygwin|Cygwin</compilerSet>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="builtin.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="controlflow.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="execute2.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="process2.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="smsh.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="smsh4.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="splitline.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="stack.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="stack.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="varlib.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="varlib.h">
+        <itemTool>3</itemTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

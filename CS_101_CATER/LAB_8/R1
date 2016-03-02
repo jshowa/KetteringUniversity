@@ -1,0 +1,12 @@
+Jacob S. Howarth
+CS-101-07L, Spring 2007
+Lab 7 -- Day Class
+
+Run Number 1:
+
+Script started on Sun Jun 03 14:56:27 2007
+nova{howa1643}1% javac EnumType.java
+nova{howa1643}2% javac Driver.java
+nova{howa1643}3% javac Day.java
+nova{howa1643}4% exit
+nova{howa1643}5% script done on Sun Jun 03 14:57:48 2007

@@ -1,0 +1,305 @@
+TEST CASES: FINAL PROJECT
+
+FILES USED ARE "userinfo.txt" "librarybooks.txt" "checkoutrecords.txt" USE THESE FILES TO PROVE THE TEST CASES
+
+1. TEST ADD NEW USER (e) COMMAND
+
+ ----jGRASP exec: java LibraryClientManager
+
+Welcome to Library Manager v1.0!
+
+by: Jacob Howarth and Calvin Diep
+12/15/2007, Winter 2007 Term
+CS 101-01, Prof. Changhua Wu
+
+Loading backup files.....
+
+*******LIBRARY MANAGEMENT COMMAND LIST*******
+*
+* e: enter new user information
+* c: check out books
+* s: save all information to backup files
+* q: check the availability of books given a book bar code
+* l: list the name, and email address of students who have books past due
+* k: given the ID of user, list the books borrowed
+* a: add new books into library or add copies to specific book
+* x: exit Library Manager
+*
+
+Enter a command: e
+Directions: Please enter (0) to add Student information or a (1) to add Faculty information.
+Enter a (1) or a (0): 0
+Enter users first name: Jason
+Enter users last name: Holt
+Enter users identification number: 34567
+Enter users phone number in this format (xxx-xxx-xxxx): 810-567-8756
+Enter the users email address: holt4567@kettering.edu
+Enter the users dormitory or office number: 210
+
+Done!
+
+*******LIBRARY MANAGEMENT COMMAND LIST*******
+*
+* e: enter new user information
+* c: check out books
+* s: save all information to backup files
+* q: check the availability of books given a book bar code
+* l: list the name, and email address of students who have books past due
+* k: given the ID of user, list the books borrowed
+* a: add new books into library or add copies to specific book
+* x: exit Library Manager
+*
+
+Enter a command: 
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2. TEST CHECK OUT BOOK (c) COMMAND
+
+Enter a command: c
+*******CHECK OUT BOOK INSTRUCTIONS**********
+*Please type one of the following numbers: *
+*  (1) Register your info                  *
+*  (2) Login with ID                       *
+
+Please enter one of the following options: 2
+Please enter your ID number: 16434
+
+Thank you for logging in Jacob
+
+Would you like to search by,
+********PLEASE TYPE*********
+* (1) Title                *
+* (2) Author               *
+* (3) Barcode              *
+* (4) End Search           *
+Please enter one of the numbers above: 2
+Please type the author name to search for: David Liang
+
+1 returned.
+
+Book:
+Title: Introduction to Java Programming
+Barcode #: 89382
+Author: David Liang
+Cost: 30.0
+Number of Copies: 50
+
+What book would you like to check out?
+please choose from the list by typing 0 for the first book in the list, 1 for the second and so on.
+Enter the number here: 0
+
+Done!
+*******LIBRARY MANAGEMENT COMMAND LIST*******
+*
+* e: enter new user information
+* c: check out books
+* s: save all information to backup files
+* q: check the availability of books given a book bar code
+* l: list the name, and email address of students who have books past due
+* k: given the ID of user, list the books borrowed
+* a: add new books into library or add copies to specific book
+* x: exit Library Manager
+*
+
+Enter a command: 
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+3. TEST CHECK BOOK AVAILABLILITY (q) COMMAND
+
+Enter a command: q
+
+Would you like to search by,
+********PLEASE TYPE*********
+* (1) Title                *
+* (2) Author               *
+* (3) Barcode              *
+* (4) End Search           *
+Please enter one of the numbers above: 1
+Please type a title to search for: Game Development
+
+Book:
+Title: Game Development
+Barcode #: 83838
+Author: Joe Jackson
+Cost: 50.0
+Number of Copies: 8
+
+Book:
+Title: Game Development
+Barcode #: 84858
+Author: Joe Senior
+Cost: 50.0
+Number of Copies: 35
+
+
+Would you like to search by,
+********PLEASE TYPE*********
+* (1) Title                *
+* (2) Author               *
+* (3) Barcode              *
+* (4) End Search           *
+Please enter one of the numbers above: 4
+Your book was not found. Would you like to search again?
+Please type (yes) or (no): no
+*******LIBRARY MANAGEMENT COMMAND LIST*******
+*
+* e: enter new user information
+* c: check out books
+* s: save all information to backup files
+* q: check the availability of books given a book bar code
+* l: list the name, and email address of students who have books past due
+* k: given the ID of user, list the books borrowed
+* a: add new books into library or add copies to specific book
+* x: exit Library Manager
+*
+
+Enter a command: 
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+4. TEST LIST NAME AND EMAIL OF STUDENT/FACULTY WITH BOOKS PAST DUE (l) COMMAND
+
+Enter a command: l
+
+Users who have books past due (Blank list means no past due books): 
+Calvin Diep diep1645@kettering.edu
+Stan Liberty liberty1111@kettering.edu
+
+*******LIBRARY MANAGEMENT COMMAND LIST*******
+*
+* e: enter new user information
+* c: check out books
+* s: save all information to backup files
+* q: check the availability of books given a book bar code
+* l: list the name, and email address of students who have books past due
+* k: given the ID of user, list the books borrowed
+* a: add new books into library or add copies to specific book
+* x: exit Library Manager
+*
+
+Enter a command: 
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+5. TEST GIVEN USER ID, LIST BOOKS BORROWED (k) COMMAND
+
+Enter a command: k
+Please enter a user ID: 16434
+
+This user borrowed: 
+Introduction to Java Programming <------ If you look in test case number 2, the user (w/ ID 16434) just borrowed this book
+
+*******LIBRARY MANAGEMENT COMMAND LIST*******
+*
+* e: enter new user information
+* c: check out books
+* s: save all information to backup files
+* q: check the availability of books given a book bar code
+* l: list the name, and email address of students who have books past due
+* k: given the ID of user, list the books borrowed
+* a: add new books into library or add copies to specific book
+* x: exit Library Manager
+*
+
+Enter a command: 
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+6. TEST ADD NEW BOOKS (a) COMMAND
+
+Enter a command: a
+Would you like to add copies to a book on file or add a new book?
+Please type (n) for new book or (u) to add copies to a book on file: n
+Please enter the title of the book: Jack Frost
+Please enter the books barcode: 33333
+Please enter the books author: The Grinch
+Please enter the book price: 13.40
+Please enter the number of copies: 20
+*******LIBRARY MANAGEMENT COMMAND LIST*******
+*
+* e: enter new user information
+* c: check out books
+* s: save all information to backup files
+* q: check the availability of books given a book bar code
+* l: list the name, and email address of students who have books past due
+* k: given the ID of user, list the books borrowed
+* a: add new books into library or add copies to specific book
+* x: exit Library Manager
+*
+
+Enter a command: 
+
+Enter a command: a
+Would you like to add copies to a book on file or add a new book?
+Please type (n) for new book or (u) to add copies to a book on file: u
+
+Would you like to search by,
+********PLEASE TYPE*********
+* (1) Title                *
+* (2) Author               *
+* (3) Barcode              *
+* (4) End Search           *
+Please enter one of the numbers above: 3
+Please type the book barcode to search for: 33333
+
+
+1 returned.
+
+Book:
+Title: Jack Frost
+Barcode #: 33333
+Author: The Grinch
+Cost: 13.4
+Number of Copies: 20
+
+What book you like to add copies to?
+Type 0, 1, 2, ..., n to choose a book with 0 corresponding to the first book in the list above and so on)
+Enter the number here: 0
+How many copies would you like to add?: 20
+
+Book:
+Title: Jack Frost
+Barcode #: 33333
+Author: The Grinch
+Cost: 13.4
+Number of Copies: 40
+
+*******LIBRARY MANAGEMENT COMMAND LIST*******
+*
+* e: enter new user information
+* c: check out books
+* s: save all information to backup files
+* q: check the availability of books given a book bar code
+* l: list the name, and email address of students who have books past due
+* k: given the ID of user, list the books borrowed
+* a: add new books into library or add copies to specific book
+* x: exit Library Manager
+*
+
+Enter a command: 
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+7. SAVE INFO AND EXIT LIBRARY MANAGER (x) AND (s) COMMANDS
+
+Enter a command: s
+*******LIBRARY MANAGEMENT COMMAND LIST*******
+*
+* e: enter new user information
+* c: check out books
+* s: save all information to backup files
+* q: check the availability of books given a book bar code
+* l: list the name, and email address of students who have books past due
+* k: given the ID of user, list the books borrowed
+* a: add new books into library or add copies to specific book
+* x: exit Library Manager
+*
+
+Enter a command: x
+
+ ----jGRASP: operation complete.
+
+USE THE FILES ABOVE TO COMPARE THE CHANGES
+

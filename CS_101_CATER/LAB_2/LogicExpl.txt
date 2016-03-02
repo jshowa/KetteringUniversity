@@ -1,0 +1,34 @@
+There is a logic error within the program that if you input
+more miles then the gallons in your tank size, it creates a negative
+amount of gas remaining.
+
+For example, 
+
+when 10 and 100 are input for the arguments of MPG and tankSize
+respectively, and 10000 miles is input for the distance traveled, a 
+negative value is created for the gallons of gas remaining which isn't
+possible.
+
+Another instance is 0 is input for the MPG argument. When this occurs,
+and you input any distance taveled and tanksize, -infinity is output
+as the gallons remaining which is also illogical.
+
+You can also input negative values for tankSize and MPG and the program
+will run. This is not a logical statment.
+
+Both of these statments can be fixed using statments and loops.
+
+The runtime errors are discovered as follows:
+
+1) ArithmeticError when dividing by zero:
+This can be changed by changing ints to doubles and using a control
+statment (i.e. if...else) to not allow MPG to be 0.
+
+2) NumberFormatException when inputing decimal integers:
+This can be changed by changing ints to doubles.
+
+3) NumberFormatException when inputing letter characters:
+This can be changed using some type of loop control statement
+
+4) ArrayIndexOutOfBoundsException when no input for arguments is given:
+This can be fixed by providing input.
