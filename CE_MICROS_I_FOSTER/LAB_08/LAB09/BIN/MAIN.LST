@@ -1,0 +1,231 @@
+ANSI-C/cC++ Compiler for HC12 V-5.0.30 Build 6157, Jun  7 2006
+
+    1:  /*
+    2:    Demonstation of the CodeWarrior environment
+    3:    
+    4:    This program implements the stopwatch example from Lecture 22
+    5:  
+    6:  */
+    7:  #include <hidef.h>      /* common defines and macros */
+    8:  #pragma LINK_INFO DERIVATIVE "mc9s12dg256b"
+    9:  
+   10:  #include "main_asm.h"   /* interface to the assembly module */
+   11:       
+   12:  // define all control registers needed
+   13:  #define PORTB (*(volatile unsigned char*) 0x0001)
+   14:  #define DDRB  (*(volatile unsigned char*) 0x0003)
+   15:  
+   16:  #define PTH   (*(volatile unsigned char*) 0x0260)
+   17:  #define DDRH  (*(volatile unsigned char*) 0x0262)
+   18:  #define PIEH  (*(volatile unsigned char*) 0x0266)
+   19:  #define PIFH  (*(volatile unsigned char*) 0x0267)
+   20:  
+   21:  #define PTP   (*(volatile unsigned char*) 0x0258)
+   22:  #define DDRP  (*(volatile unsigned char*) 0x025A)
+   23:  
+   24:  #define CRGFLG (*(volatile unsigned char*) 0x0037)
+   25:  #define CRGINT (*(volatile unsigned char*) 0x0038)
+   26:  #define RTICTL (*(volatile unsigned char*) 0x003B)
+   27:  #define RTII 0x80
+   28:  #define RTIF 0x80
+   29:  
+   30:  #define SW5 0x01      // define bit pattern for pushbutton 5
+   31:  #define ONESEC 122*8  // number of interrups per second
+   32:  
+   33:  //  function prototypes
+   34:  void init7seg(void);
+   35:  
+   36:  // must be volatile since the RTI interrupt will modify
+   37:  // in addition to the main loop
+   38:  volatile char digitx[4];
+   39:  
+   40:  int i;                // counter for looping through digits
+   41:  volatile unsigned int RTI_count;  // count interrupts to measure one sec.
+   42:  
+   43:  //#pragma CODE_SEG MY_CODE
+   44:  void main(void) {
+
+Function: main
+Source  : E:\MICROS_1\LAB_08\lab09\Sources\main.c
+Options : -CPUHCS12 -D__ONLY_INIT_SP -D__NO_FLOAT__ -D_HCS12_SERIALMON -Env"GENPATH=E:\MICROS_1\LAB_08\lab09;E:\MICROS_1\LAB_08\lab09\bin;E:\MICROS_1\LAB_08\lab09\prm;E:\MICROS_1\LAB_08\lab09\cmd;E:\MICROS_1\LAB_08\lab09\Sources;C:\Program Files\Freescale\CW for HC12 V4.5\lib\HC12c\lib;C:\Program Files\Freescale\CW for HC12 V4.5\lib\HC12c\src;C:\Program Files\Freescale\CW for HC12 V4.5\lib\HC12c\include" -Env"LIBPATH=C:\Program Files\Freescale\CW for HC12 V4.5\lib\HC12c\include" -EnvOBJPATH=E:\MICROS_1\LAB_08\lab09\bin -EnvTEXTPATH=E:\MICROS_1\LAB_08\lab09\bin -Lasm=%n.lst -Ms -ObjN=E:\MICROS_1\LAB_08\lab09\lab09_Data\HCS12_Serial_Monitor\ObjectCode\main.c.o -W1
+
+   45:   asm LDS #$3600
+  0000 cf3600       [2]     LDS   #13824
+   46:   init7seg();
+  0003 160000       [4]     JSR   init7seg
+   47:  
+   48:   digitx[0] = 0x30; // initialize left digit...
+  0006 cc4030       [2]     LDD   #16432
+  0009 7b0000       [3]     STAB  digitx
+   49:   digitx[1] = 0x30;            
+  000c 7b0000       [3]     STAB  digitx:1
+   50:   digitx[2] = 0x30;
+  000f 7b0000       [3]     STAB  digitx:2
+   51:   digitx[3] = 0x30; // ...through right digit
+  0012 7b0000       [3]     STAB  digitx:3
+   52:   
+   53:   RTICTL = 0x40;    // set to 1x2^13
+  0015 5a3b         [2]     STAA  59
+   54:   
+   55:   DDRH &= ~SW5;     // SW5 to input
+  0017 1d026201     [4]     BCLR  610,#1
+   56:   PIEH |= SW5;      // and enable its interrupt
+  001b 1c026601     [4]     BSET  614,#1
+   57:   
+   58:   enableInts(); 
+  001f 160000       [4]     JSR   enableInts
+   59:   for(;;){ //forever...
+  0022 2025         [3]     BRA   *+39 ;abs = 0049
+   60:     digit(dig[i],digitx[i]); // display the next digit
+  0024 fe0000       [3]     LDX   i
+  0027 e6e20000     [4]     LDAB  dig,X
+  002b b716         [1]     SEX   B,Y
+  002d 35           [2]     PSHY  
+  002e e6e20000     [4]     LDAB  digitx,X
+  0032 b714         [1]     SEX   B,D
+  0034 160000       [4]     JSR   digit
+  0037 30           [3]     PULX  
+   61:     if (++i == 4)  // preincrement i, and wrap back to 0
+  0038 fe0000       [3]     LDX   i
+  003b 08           [1]     INX   
+  003c 7e0000       [3]     STX   i
+  003f 8e0004       [2]     CPX   #4
+  0042 26e0         [3/1]   BNE   *-30 ;abs = 0024
+   62:       i = 0;       // when 4 is reached
+  0044 c7           [1]     CLRB  
+  0045 87           [1]     CLRA  
+  0046 7c0000       [3]     STD   i
+   63:    
+   64:   }
+  0049 20d9         [3]     BRA   *-37 ;abs = 0024
+   65:  }
+   66:  /****************************************************/      
+   67:  void init7seg(void){
+
+Function: init7seg
+Source  : E:\MICROS_1\LAB_08\lab09\Sources\main.c
+Options : -CPUHCS12 -D__ONLY_INIT_SP -D__NO_FLOAT__ -D_HCS12_SERIALMON -Env"GENPATH=E:\MICROS_1\LAB_08\lab09;E:\MICROS_1\LAB_08\lab09\bin;E:\MICROS_1\LAB_08\lab09\prm;E:\MICROS_1\LAB_08\lab09\cmd;E:\MICROS_1\LAB_08\lab09\Sources;C:\Program Files\Freescale\CW for HC12 V4.5\lib\HC12c\lib;C:\Program Files\Freescale\CW for HC12 V4.5\lib\HC12c\src;C:\Program Files\Freescale\CW for HC12 V4.5\lib\HC12c\include" -Env"LIBPATH=C:\Program Files\Freescale\CW for HC12 V4.5\lib\HC12c\include" -EnvOBJPATH=E:\MICROS_1\LAB_08\lab09\bin -EnvTEXTPATH=E:\MICROS_1\LAB_08\lab09\bin -Lasm=%n.lst -Ms -ObjN=E:\MICROS_1\LAB_08\lab09\lab09_Data\HCS12_Serial_Monitor\ObjectCode\main.c.o -W1
+
+   68:    DDRB = 0xFF;
+  0000 c6ff         [1]     LDAB  #255
+  0002 5b03         [2]     STAB  3
+   69:    DDRP = 0xFF;
+  0004 7b025a       [3]     STAB  602
+   70:  }
+  0007 3d           [5]     RTS   
+   71:  
+   72:  /****************************************************/
+   73:  // when enabled, increment the four-digit 7-segment display
+   74:  // once per second
+   75:  void interrupt RTI_ISR(void){
+
+Function: RTI_ISR
+Source  : E:\MICROS_1\LAB_08\lab09\Sources\main.c
+Options : -CPUHCS12 -D__ONLY_INIT_SP -D__NO_FLOAT__ -D_HCS12_SERIALMON -Env"GENPATH=E:\MICROS_1\LAB_08\lab09;E:\MICROS_1\LAB_08\lab09\bin;E:\MICROS_1\LAB_08\lab09\prm;E:\MICROS_1\LAB_08\lab09\cmd;E:\MICROS_1\LAB_08\lab09\Sources;C:\Program Files\Freescale\CW for HC12 V4.5\lib\HC12c\lib;C:\Program Files\Freescale\CW for HC12 V4.5\lib\HC12c\src;C:\Program Files\Freescale\CW for HC12 V4.5\lib\HC12c\include" -Env"LIBPATH=C:\Program Files\Freescale\CW for HC12 V4.5\lib\HC12c\include" -EnvOBJPATH=E:\MICROS_1\LAB_08\lab09\bin -EnvTEXTPATH=E:\MICROS_1\LAB_08\lab09\bin -Lasm=%n.lst -Ms -ObjN=E:\MICROS_1\LAB_08\lab09\lab09_Data\HCS12_Serial_Monitor\ObjectCode\main.c.o -W1
+
+   76:    CRGFLG = RTIF;          // clear flag 
+  0000 c680         [1]     LDAB  #128
+  0002 5b37         [2]     STAB  55
+   77:    if (--RTI_count == 0){  // decrement and then compare to 0
+  0004 fe0000       [3]     LDX   RTI_count
+  0007 09           [1]     DEX   
+  0008 7e0000       [3]     STX   RTI_count
+  000b 2642         [3/1]   BNE   *+68 ;abs = 004f
+   78:      RTI_count = ONESEC;   // reset for the next second
+  000d cc03d0       [2]     LDD   #976
+  0010 7c0000       [3]     STD   RTI_count
+   79:      if (++digitx[3] == 0x3A){ // increment the rightmost...
+  0013 720000       [4]     INC   digitx:3
+  0016 f60000       [3]     LDAB  digitx:3
+  0019 c13a         [1]     CMPB  #58
+  001b 2632         [3/1]   BNE   *+52 ;abs = 004f
+   80:        digitx[3] = 0x30; 
+  001d c630         [1]     LDAB  #48
+  001f 7b0000       [3]     STAB  digitx:3
+   81:        if (++digitx[2] == 0x3A){
+  0022 720000       [4]     INC   digitx:2
+  0025 f60000       [3]     LDAB  digitx:2
+  0028 c13a         [1]     CMPB  #58
+  002a 2623         [3/1]   BNE   *+37 ;abs = 004f
+   82:          digitx[2] = 0x30; 
+  002c c630         [1]     LDAB  #48
+  002e 7b0000       [3]     STAB  digitx:2
+   83:          if (++digitx[1] == 0x3A){
+  0031 720000       [4]     INC   digitx:1
+  0034 f60000       [3]     LDAB  digitx:1
+  0037 c13a         [1]     CMPB  #58
+  0039 2614         [3/1]   BNE   *+22 ;abs = 004f
+   84:            digitx[1] = 0x30; 
+  003b c630         [1]     LDAB  #48
+  003d 7b0000       [3]     STAB  digitx:1
+   85:            if (++digitx[0] == 0x3A){ // increment the leftmost
+  0040 720000       [4]     INC   digitx
+  0043 f60000       [3]     LDAB  digitx
+  0046 c13a         [1]     CMPB  #58
+  0048 2605         [3/1]   BNE   *+7 ;abs = 004f
+   86:              digitx[0] = 0x30; 
+  004a c630         [1]     LDAB  #48
+  004c 7b0000       [3]     STAB  digitx
+   87:            }
+   88:          }
+   89:        }
+   90:      }
+   91:    }
+   92:  }
+  004f 0b           [8]     RTI   
+   93:  
+   94:  /****************************************************/
+   95:  // if the RTI is running, stop it
+   96:  // if the RTI is not running and display is 0000...
+   97:  // ... start RTI
+   98:  // if the RTI is not running and display is not 0000...
+   99:  // clear the display
+  100:  //
+  101:  void interrupt PTH_ISR(void){
+
+Function: PTH_ISR
+Source  : E:\MICROS_1\LAB_08\lab09\Sources\main.c
+Options : -CPUHCS12 -D__ONLY_INIT_SP -D__NO_FLOAT__ -D_HCS12_SERIALMON -Env"GENPATH=E:\MICROS_1\LAB_08\lab09;E:\MICROS_1\LAB_08\lab09\bin;E:\MICROS_1\LAB_08\lab09\prm;E:\MICROS_1\LAB_08\lab09\cmd;E:\MICROS_1\LAB_08\lab09\Sources;C:\Program Files\Freescale\CW for HC12 V4.5\lib\HC12c\lib;C:\Program Files\Freescale\CW for HC12 V4.5\lib\HC12c\src;C:\Program Files\Freescale\CW for HC12 V4.5\lib\HC12c\include" -Env"LIBPATH=C:\Program Files\Freescale\CW for HC12 V4.5\lib\HC12c\include" -EnvOBJPATH=E:\MICROS_1\LAB_08\lab09\bin -EnvTEXTPATH=E:\MICROS_1\LAB_08\lab09\bin -Lasm=%n.lst -Ms -ObjN=E:\MICROS_1\LAB_08\lab09\lab09_Data\HCS12_Serial_Monitor\ObjectCode\main.c.o -W1
+
+  102:    PIFH = SW5;      // clear flag for SW5 
+  0000 c601         [1]     LDAB  #1
+  0002 7b0267       [3]     STAB  615
+  103:    if(CRGINT & RTII){  // if RTI is enabled
+  0005 4f388004     [4]     BRCLR 56,#128,*+8 ;abs = 000d
+  104:      CRGINT &= ~RTII;  // disable the RTI interrupt      
+  0009 4d3880       [4]     BCLR  56,#128
+  105:    } else{
+  000c 0b           [8]     RTI   
+  106:      if ( (digitx[0] == 0x30) && (digitx[1] == 0x30) && (digitx[2] == 0x30) && (digitx[3] == 0x30))    {
+  000d b60000       [3]     LDAA  digitx
+  0010 8130         [1]     CMPA  #48
+  0012 261f         [3/1]   BNE   *+33 ;abs = 0033
+  0014 b60000       [3]     LDAA  digitx:1
+  0017 8130         [1]     CMPA  #48
+  0019 2618         [3/1]   BNE   *+26 ;abs = 0033
+  001b b60000       [3]     LDAA  digitx:2
+  001e 8130         [1]     CMPA  #48
+  0020 2611         [3/1]   BNE   *+19 ;abs = 0033
+  0022 b60000       [3]     LDAA  digitx:3
+  0025 8130         [1]     CMPA  #48
+  0027 260a         [3/1]   BNE   *+12 ;abs = 0033
+  107:        CRGINT |= RTII;     // enable the RTI interrupt
+  0029 4c3880       [4]     BSET  56,#128
+  108:        RTI_count = ONESEC; // reset count for the next second
+  002c cc03d0       [2]     LDD   #976
+  002f 7c0000       [3]     STD   RTI_count
+  109:      } else{
+  0032 0b           [8]     RTI   
+  110:        digitx[0] = 0x30;   // clear display back to 0's
+  0033 8630         [1]     LDAA  #48
+  0035 7a0000       [3]     STAA  digitx
+  111:        digitx[1] = 0x30;
+  0038 7a0000       [3]     STAA  digitx:1
+  112:        digitx[2] = 0x30;
+  003b 7a0000       [3]     STAA  digitx:2
+  113:        digitx[3] = 0x30;   
+  003e 7a0000       [3]     STAA  digitx:3
+  114:      }
+  115:    }
+  116:  }
+  0041 0b           [8]     RTI   

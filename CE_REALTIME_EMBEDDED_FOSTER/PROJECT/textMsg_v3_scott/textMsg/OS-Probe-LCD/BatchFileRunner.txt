@@ -1,0 +1,30 @@
+========================================================================
+Metrowerks Batch File Runner Post Linker Release Notes 
+========================================================================
+This post linker will execute a batch file at the end of the link stage. 
+
+Select this plugin as the post linker in the project's Target Settings
+pref panel and add the batch file you wish to execute to the project.
+You can add multiple batch files to a target, but the post linker will
+only execute the first batch file in the target's file list view.
+
+Since this plugin is a post linker, it will create a process to execute 
+the batch file at the end of the link phase. This means the batch file 
+will be executed every time (and only when) the project is linked.
+The working directory for the process executing the batch file is set 
+to the location of the batch file.
+
+There is not a default file mapping for .bat extensions so you will have
+to add .bat to your File Mappings panel before you can add your batch 
+file(s).  Select 'None' as the compiler for this mapping.
+
+========================================================================
+Contacting Metrowerks
+========================================================================
+For bug reports, technical questions, and suggestions, please use the
+forms in the Release Notes folder on the CD, and send them to
+
+support@metrowerks.com
+
+========================================================================
+Metrowerks

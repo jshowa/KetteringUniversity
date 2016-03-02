@@ -1,0 +1,63 @@
+
+Freescale HC12-Assembler 
+(c) Copyright Freescale 1987-2006
+
+ Abs. Rel.   Loc    Obj. code   Source line
+ ---- ----   ------ ---------   -----------
+    1    1                      ; export symbols
+    2    2                                  XDEF dig
+    3    3                                  XDEF digit, enableInts
+    4    4                      
+    5    5                      ; include derivative specific macros
+    6    6                                  INCLUDE 'mc9s12dg256.inc'
+ 8606    7                      
+ 8607    8                      ; variable/data section
+ 8608    9                      MY_EXTENDED_RAM: SECTION
+ 8609   10                      
+ 8610   11   000000 0102 0408   dig:     DC.B  1,2,4,8  ; define constants for digit subroutine
+ 8611   12                      
+ 8612   13   000004 3F          BCDLED	DC.B	%00111111	;0
+ 8613   14   000005 06          	      DC.B	%00000110	;1
+ 8614   15   000006 5B          	      DC.B	%01011011	;2
+ 8615   16   000007 4F          	      DC.B	%01001111	;3
+ 8616   17   000008 66          	      DC.B	%01100110	;4
+ 8617   18   000009 6D          	      DC.B	%01101101	;5
+ 8618   19   00000A 7D          	      DC.B	%01111101	;6
+ 8619   20   00000B 07          	      DC.B	%00000111	;7
+ 8620   21   00000C 7F          	      DC.B	%01111111	;8
+ 8621   22   00000D 67          	      DC.B	%01100111	;9
+ 8622   23                      ; code section
+ 8623   24                      MyCode:     SECTION
+ 8624   25                      
+ 8625   26                      ; ASCII value in B, digit is on the stack
+ 8626   27                      ; no output
+ 8627   28   000000 36          digit	PSHA
+ 8628   29   000001 A683              LDAA  3,SP         ; load second parameter
+ 8629   30   000003 16xx xx     	    JSR	  toLED        ; convert B to pattern
+ 8630   31   000006 880F        	    EORA	#%00001111
+ 8631   32   000008 36          	    PSHA
+ 8632   33   000009 B602 58     	    LDAA	PTP
+ 8633   34   00000C 84F0        	    ANDA	#%11110000
+ 8634   35   00000E AA80        	    ORAA	0,SP
+ 8635   36   000010 7A02 58     	    STAA	PTP
+ 8636   37   000013 5B01        	    STAB	PORTB
+ 8637   38   000015 1B81        	    LEAS	1,SP
+ 8638   39   000017 32          	    PULA
+ 8639   40   000018 3D          	    RTS
+ 8640   41                      
+ 8641   42                      ; converts ASCII number to 7-segment pattern
+ 8642   43                      ; ASCII input in B
+ 8643   44                      ; pattern output in B	    
+ 8644   45   000019 34          toLED	PSHX
+ 8645   46   00001A 39          	    PSHC
+ 8646   47   00001B CExx xx     	    LDX	#BCDLED
+ 8647   48   00001E C030        	    SUBB	#$30
+ 8648   49   000020 1AE5        	    ABX
+ 8649   50   000022 E600        	    LDAB	0,X
+ 8650   51   000024 38          	    PULC
+ 8651   52   000025 30          	    PULX
+ 8652   53   000026 3D          	    RTS
+ 8653   54                      ; no input or output, simple enables global interrupts
+ 8654   55                      enableInts
+ 8655   56   000027 10EF              CLI
+ 8656   57   000029 3D                RTS

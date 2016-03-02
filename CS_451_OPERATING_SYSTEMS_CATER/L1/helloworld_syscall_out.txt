@@ -1,0 +1,10 @@
+Oct 19 16:40:51 nadine kernel: [   27.247601] atl1c 0000:01:00.0: irq 2299 for MSI/MSI-X
+Oct 19 16:40:51 nadine kernel: [   27.248518] ADDRCONF(NETDEV_UP): eth0: link is not ready
+Oct 19 16:41:00 nadine console-kit-daemon[2789]: WARNING: Couldn't read /proc/2788/environ: Failed to open file '/proc/2788/environ': No such file or directory 
+Oct 19 16:41:12 nadine anacron[3860]: Anacron 2.3 started on 2010-10-19
+Oct 19 16:41:12 nadine anacron[3860]: Normal exit (0 jobs run)
+Oct 19 16:48:48 nadine kernel: [  504.910387] Hello World!
+Oct 19 16:50:01 nadine /USR/SBIN/CRON[4288]: (root) CMD ([ -x /usr/sbin/update-motd ] && /usr/sbin/update-motd 2>/dev/null)
+Oct 19 16:58:10 nadine kernel: [ 1067.098596] Hello World!
+Oct 19 17:00:02 nadine /USR/SBIN/CRON[4551]: (root) CMD ([ -x /usr/sbin/update-motd ] && /usr/sbin/update-motd 2>/dev/null)
+Oct 19 17:00:02 nadine /USR/SBIN/CRON[4553]: (root) CMD ([ -x /usr/sbin/update-motd ] && /usr/sbin/update-motd hourly 2>/dev/null)

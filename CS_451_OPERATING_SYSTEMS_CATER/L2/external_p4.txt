@@ -1,0 +1,29 @@
+Script started on Wed 03 Nov 2010 02:06:40 AM EDT
+]0;jshowa@nadine: ~/proc_temp_prog/externaljshowa@nadine:~/proc_temp_prog/external$ ./external 40 4
+mailbox851968 created by external process 4 for central process 1400.
+mailbox983044 created by external process 4 for external process 4.
+message sent from external process 4 to central process.
+message received by external process 4 from the central process.
+message sent from external process 4 to central process.
+message received by external process 4 from the central process.
+message sent from external process 4 to central process.
+message received by external process 4 from the central process.
+message sent from external process 4 to central process.
+message received by external process 4 from the central process.
+message sent from external process 4 to central process.
+message received by external process 4 from the central process.
+message sent from external process 4 to central process.
+message received by external process 4 from the central process.
+message sent from external process 4 to central process.
+message received by external process 4 from the central process.
+message sent from external process 4 to central process.
+message received by external process 4 from the central process.
+message sent from external process 4 to central process.
+message received by external process 4 from the central process.
+message sent from external process 4 to central process.
+message received by external process 4 from the central process.
+message sent from external process 4 to central process.
+message received by external process 4 from the central process.
+]0;jshowa@nadine: ~/proc_temp_prog/externaljshowa@nadine:~/proc_temp_prog/external$ exit
+
+Script done on Wed 03 Nov 2010 02:07:29 AM EDT

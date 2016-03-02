@@ -1,0 +1,88 @@
+;
+;********************************************************************************************************
+;                                       7-SEGMENT LED ISR
+; 
+;                                        Freescale MC9S12
+;                                       Wytec Dragon12 EVB
+;
+; File         : SevenSegDisp_ISR.s
+; By           : Eric Shufro
+;
+; Description  : This file contains the ISR for the 7-Segment LED periodic interrupt.
+;                The ISR informs the operating system of the interrupt, and calls
+;                the appropriate ISR Handler in order to perform the majority of
+;                the processing from C code located in SevenSegDisp_BSP.c.
+;
+; Nots         : 1) This ISR should be used as a model for creating new ISRs under uC/OS-II
+;                   using the MC9S12 Freescale architecture.
+;
+;              : 2) THIS FILE *MUST* BE LINKED INTO NON_BANKED MEMORY!
+;********************************************************************************************************
+
+NON_BANKED:       section
+  
+;********************************************************************************************************
+;                                           I/O PORT ADDRESSES
+;********************************************************************************************************
+
+PPAGE:            equ    $0030         ; Addres of PPAGE register (assuming MC9S12 (non XGATE part)
+
+;********************************************************************************************************
+;                                          PUBLIC DECLARATIONS
+;********************************************************************************************************
+
+    xdef   SevenSegDisp_ISR   
+    
+;********************************************************************************************************
+;                                         EXTERNAL DECLARATIONS
+;********************************************************************************************************
+   
+    xref   OSIntExit
+    xref   OSIntNesting  
+    xref   OSTCBCur     
+    xref   SevenSegDisp_ISR_Handler 
+
+
+;********************************************************************************************************
+;                                           7-Segment ISR
+;
+; Description : This routine is the ISR for the Wytec Dragon12 7-Segment LED blocks. It calls 
+;               an ISR handler to perform most of the the I/O operations from C. The ISR 
+;               itself, like ALL other ISR's is coded in assembly so that the OS related 
+;               stack pointer manipulation can be performed prior to calling the associated 
+;               ISR Handler function.
+;
+; Arguments   : none
+;
+; Notes       : 1) All USER interrupts should be modeled EXACTLY like this where the only
+;                  line to be modified is the call to your ISR_Handler and perhaps the call to
+;                  the label name thisISRName1, See bne SevenSegDisp_ISR1.
+;********************************************************************************************************
+
+SevenSegDisp_ISR:
+    ldaa   PPAGE                       ;  Get current value of PPAGE register                                
+    psha                               ;  Push PPAGE register onto current task's stack
+
+    inc    OSIntNesting                ;  Notify uC/OS-II about ISR
+
+    ldab   OSIntNesting                ;  if (OSIntNesting == 1) {    
+    cmpb   #$01                        ;  
+    bne    SevenSegDisp_ISR1           ;  
+
+    ldy    OSTCBCur                    ;      OSTCBCur->OSTCBStkPtr = Stack Pointer     
+    sts    0,y                         ;  }                                          
+
+SevenSegDisp_ISR1:
+    call   SevenSegDisp_ISR_Handler    ;  Call the Seven Segment Display ISR Handler in SevenSegDisp_BSP.c
+
+    cli                                ;  Enable interrupts to allow interrupt nesting
+       
+    call   OSIntExit                   ;  Notify uC/OS-II about end of ISR
+    
+    pula                               ;  Get value of PPAGE register
+    staa   PPAGE                       ;  Store into CPU's PPAGE register                                
+        
+    rti                                ;  Return from interrupt, no higher priority tasks ready.
+    
+
+

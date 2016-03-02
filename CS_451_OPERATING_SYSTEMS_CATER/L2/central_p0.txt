@@ -1,0 +1,101 @@
+Script started on Wed 03 Nov 2010 02:07:06 AM EDT
+]0;jshowa@nadine: ~/proc_temp_prog/centraljshowa@nadine:~/proc_temp_prog/central$ ./central 60
+Starting program...
+mailbox851968 has been created by central process 0 for central process 0.
+mailbox884737 has been created by central process 0 for central process 0.
+mailbox917506 has been created by central process 0 for central process 0.
+mailbox950275 has been created by central process 0 for central process 0.
+mailbox983044 has been created by central process 0 for central process 0.
+Logging temperatures to log file: proc_temp_sync_log.txt
+message received by central process from external process 1.
+message received by central process from external process 2.
+message received by central process from external process 3.
+message received by central process from external process 4.
+message sent from central process to external process 1.
+message sent from central process to external process 2.
+message sent from central process to external process 3.
+message sent from central process to external process 4.
+message received by central process from external process 1.
+message received by central process from external process 2.
+message received by central process from external process 4.
+message received by central process from external process 3.
+message sent from central process to external process 1.
+message sent from central process to external process 2.
+message sent from central process to external process 3.
+message sent from central process to external process 4.
+message received by central process from external process 2.
+message received by central process from external process 4.
+message received by central process from external process 1.
+message received by central process from external process 3.
+message sent from central process to external process 1.
+message sent from central process to external process 2.
+message sent from central process to external process 3.
+message sent from central process to external process 4.
+message received by central process from external process 2.
+message received by central process from external process 4.
+message received by central process from external process 1.
+message received by central process from external process 3.
+message sent from central process to external process 1.
+message sent from central process to external process 2.
+message sent from central process to external process 3.
+message sent from central process to external process 4.
+message received by central process from external process 2.
+message received by central process from external process 4.
+message received by central process from external process 1.
+message received by central process from external process 3.
+message sent from central process to external process 1.
+message sent from central process to external process 2.
+message sent from central process to external process 3.
+message sent from central process to external process 4.
+message received by central process from external process 2.
+message received by central process from external process 4.
+message received by central process from external process 1.
+message received by central process from external process 3.
+message sent from central process to external process 1.
+message sent from central process to external process 2.
+message sent from central process to external process 3.
+message sent from central process to external process 4.
+message received by central process from external process 2.
+message received by central process from external process 4.
+message received by central process from external process 1.
+message received by central process from external process 3.
+message sent from central process to external process 1.
+message sent from central process to external process 2.
+message sent from central process to external process 3.
+message sent from central process to external process 4.
+message received by central process from external process 2.
+message received by central process from external process 4.
+message received by central process from external process 1.
+message received by central process from external process 3.
+message sent from central process to external process 1.
+message sent from central process to external process 2.
+message sent from central process to external process 3.
+message sent from central process to external process 4.
+message received by central process from external process 4.
+message received by central process from external process 1.
+message received by central process from external process 3.
+message received by central process from external process 2.
+message sent from central process to external process 1.
+message sent from central process to external process 2.
+message sent from central process to external process 3.
+message sent from central process to external process 4.
+message received by central process from external process 4.
+message received by central process from external process 2.
+message received by central process from external process 1.
+message received by central process from external process 3.
+message sent from central process to external process 1.
+message sent from central process to external process 2.
+message sent from central process to external process 3.
+message sent from central process to external process 4.
+message received by central process from external process 4.
+message received by central process from external process 2.
+message received by central process from external process 1.
+message received by central process from external process 3.
+message sent from central process to external process 1.
+message sent from central process to external process 2.
+message sent from central process to external process 3.
+message sent from central process to external process 4.
+Program Shutdown.
+]0;jshowa@nadine: ~/proc_temp_prog/centraljshowa@nadine:~/proc_temp_prog/central$ exit
+
+Script done on Wed 03 Nov 2010 02:07:17 AM EDT

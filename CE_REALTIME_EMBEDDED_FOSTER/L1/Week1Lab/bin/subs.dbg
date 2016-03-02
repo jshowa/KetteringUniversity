@@ -1,0 +1,38 @@
+;****************************************************
+;* CE-426: Lab 1                     Date:  10/14/10*
+;*                                                  *
+;* Author:                                          *
+;* Jacob Howarth                                    *
+;* Scott Snyder                                     *
+;*                                                  *
+;* Description: This program identifies the lowest  *
+;* order bit location that contains a 1 in a 64-bit *
+;* word. The value is returned in register B.       *
+;****************************************************
+
+
+MY_SUBS:    SECTION            
+            XDEF priority
+            
+            
+            
+            
+            
+            
+priority:   TFR D,X     ; Place the table reference into X for index addressing
+            LDAB #$00   ; Counter for the bit location
+
+loop:       LDAA 1,X+       
+            ; CMPA #$00   ; Compare the byte to zero (uneeded instruction)
+            BEQ increment ; if its zero, there are no ones, so skip the check loop for 1's (loop2)
+
+loop2:      LSRA        ; if the byte is not zero 
+            BCS ending  
+            INCB        ; increment the bit position counter
+            BRA loop2
+
+increment:  ADDB #$08   ; Add 8 to register B since the byte examined in A contains no 1's
+           ; INX         ; Move to the next byte and loop back to reload it. (uneeded instruction)
+            BRA loop
+            
+ending:     RTS

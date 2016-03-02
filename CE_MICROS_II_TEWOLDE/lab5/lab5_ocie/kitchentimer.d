@@ -1,0 +1,1 @@
+kitchentimer.o: kitchentimer.c

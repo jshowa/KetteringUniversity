@@ -1,0 +1,1294 @@
+Archive member included because of file (symbol)
+
+C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(memcpy.o)
+                              Objects - Graphics Primitives Layer Demo\MainDemo.o (memcpy)
+C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(general-exception.o)
+                              C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o (_general_exception_context)
+C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o)
+                              C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o (exit)
+C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobdata.o)
+                              C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o) (_libc_data)
+C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+                              C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobdata.o) (_filbuf_simple)
+C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                              C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o) (pthread_mutex_lock)
+C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-general-exception-handler.o)
+                              C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(general-exception.o) (_general_exception_handler)
+C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-bootstrap-exception-handler.o)
+                              C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o (_bootstrap_exception_handler)
+C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-reset.o)
+                              C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o (_on_reset)
+C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-bootstrap.o)
+                              C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o (_on_bootstrap)
+C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-nmi-handler.o)
+                              C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o (_nmi_handler)
+C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_getc.o)
+                              C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o) (_mon_getc)
+C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_write.o)
+                              C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o) (_mon_write)
+C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_exit.o)
+                              C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o) (_exit)
+C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(errno.o)
+                              C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o) (errno)
+C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_putc.o)
+                              C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_write.o) (_mon_putc)
+C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_disable_interrupts_lib.o)
+                              Objects - Graphics Primitives Layer Demo\MainDemo.o (INTDisableInterrupts)
+C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_enable_mv_int_lib.o)
+                              Objects - Graphics Primitives Layer Demo\MainDemo.o (INTEnableSystemMultiVectoredInt)
+C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_restore_interrupts_lib.o)
+                              Objects - Graphics Primitives Layer Demo\MainDemo.o (INTRestoreInterrupts)
+C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(pcache.o)
+                              Objects - Graphics Primitives Layer Demo\MainDemo.o (CheKseg0CacheOn)
+C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_enable_interrupts_lib.o)
+                              C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_enable_mv_int_lib.o) (INTEnableInterrupts)
+
+Allocating common symbols
+Common symbol       size              file
+
+_cursorY            0x2               Objects - Graphics Primitives Layer Demo\Primitive.o
+_fontOrientation    0x1               Objects - Graphics Primitives Layer Demo\Primitive.o
+_fontFirstChar      0x2               Objects - Graphics Primitives Layer Demo\Primitive.o
+_clipRgn            0x2               Objects - Graphics Primitives Layer Demo\DisplayDriver.o
+_fontHeight         0x2               Objects - Graphics Primitives Layer Demo\Primitive.o
+_bevelDrawType      0x1               Objects - Graphics Primitives Layer Demo\Primitive.o
+_cursorX            0x2               Objects - Graphics Primitives Layer Demo\Primitive.o
+_fontLastChar       0x2               Objects - Graphics Primitives Layer Demo\Primitive.o
+_font               0x4               Objects - Graphics Primitives Layer Demo\Primitive.o
+_lineType           0x2               Objects - Graphics Primitives Layer Demo\Primitive.o
+_clipRight          0x2               Objects - Graphics Primitives Layer Demo\DisplayDriver.o
+_clipBottom         0x2               Objects - Graphics Primitives Layer Demo\DisplayDriver.o
+_clipTop            0x2               Objects - Graphics Primitives Layer Demo\DisplayDriver.o
+_color              0x2               Objects - Graphics Primitives Layer Demo\DisplayDriver.o
+_clipLeft           0x2               Objects - Graphics Primitives Layer Demo\DisplayDriver.o
+_lineThickness      0x1               Objects - Graphics Primitives Layer Demo\Primitive.o
+
+Microchip PIC32 Memory-Usage Report
+
+kseg0 Program-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.text                   0x9d000000         0x4000       16384  Application's executable code 
+.rodata                 0x9d004000        0x11d7c       73084  Read-only constant data 
+.data                   0x9d015d7c           0xf4         244  Data-initialization template 
+.sdata                  0x9d015e70           0x10          16  Small data-initialization template 
+      Total kseg0_program_mem used  :     0x15e80       89728  17.1% of 0x80000
+
+kseg0 Boot-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.startup                0x9fc00490          0x1e0         480  C startup code 
+         Total kseg0_boot_mem used  :       0x1e0         480  19.9% of 0x970
+
+Exception-Memory Usage 
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.app_excpt              0x9fc01180           0x10          16  General-Exception handler 
+          Total exception_mem used  :        0x10          16  0.4% of 0x1000
+
+kseg1 Boot-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.reset                  0xbfc00000           0x10          16  Reset handler 
+.bev_excpt              0xbfc00380           0x10          16  BEV-Exception handler 
+         Total kseg1_boot_mem used  :        0x20          32  2.7% of 0x490
+        --------------------------------------------------------------------------
+         Total Program Memory used  :     0x16090       90256  17.0% of 0x81e00
+        --------------------------------------------------------------------------
+
+
+kseg1 Data-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.data                   0xa0000200           0xf4         244  Initialized data 
+.sdata                  0xa00002f4           0x10          16  Small initialized data 
+.sbss                   0xa0000304           0x64         100  Small uninitialized data 
+.bss                    0xa0000368          0x10c         268  Uninitialized data 
+.heap                   0xa0000474          0xfa0        4000  Dynamic Memory heap 
+.stack                  0xa0001414          0x800        2048  Minimum space reserved for stack 
+         Total kseg1_data_mem used  :      0x1a14        6676  20.4% of 0x8000
+        --------------------------------------------------------------------------
+            Total Data Memory used  :      0x1a14        6676  20.4% of 0x8000
+        --------------------------------------------------------------------------
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+kseg0_program_mem 0x9d000000         0x00080000         xr
+kseg0_boot_mem   0x9fc00490         0x00000970
+exception_mem    0x9fc01000         0x00001000
+kseg1_boot_mem   0xbfc00000         0x00000490
+debug_exec_mem   0xbfc02000         0x00000ff0
+config3          0xbfc02ff0         0x00000004
+config2          0xbfc02ff4         0x00000004
+config1          0xbfc02ff8         0x00000004
+config0          0xbfc02ffc         0x00000004
+kseg1_data_mem   0xa0000000         0x00008000         w !x
+sfrs             0xbf800000         0x00100000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o
+                0x00000001                _DEBUGGER = 0x1
+LOAD Objects - Graphics Primitives Layer Demo\Font35PixelsHeight.o
+LOAD Objects - Graphics Primitives Layer Demo\MainDemo.o
+LOAD Objects - Graphics Primitives Layer Demo\Pictures C32.o
+LOAD Objects - Graphics Primitives Layer Demo\Font25PixelsHeight.o
+LOAD Objects - Graphics Primitives Layer Demo\Window.o
+LOAD Objects - Graphics Primitives Layer Demo\Button.o
+LOAD Objects - Graphics Primitives Layer Demo\Chart.o
+LOAD Objects - Graphics Primitives Layer Demo\CheckBox.o
+LOAD Objects - Graphics Primitives Layer Demo\EditBox.o
+LOAD Objects - Graphics Primitives Layer Demo\GOL.o
+LOAD Objects - Graphics Primitives Layer Demo\GOLFontDefault.o
+LOAD Objects - Graphics Primitives Layer Demo\Grid.o
+LOAD Objects - Graphics Primitives Layer Demo\GroupBox.o
+LOAD Objects - Graphics Primitives Layer Demo\ListBox.o
+LOAD Objects - Graphics Primitives Layer Demo\Meter.o
+LOAD Objects - Graphics Primitives Layer Demo\Picture.o
+LOAD Objects - Graphics Primitives Layer Demo\Primitive.o
+LOAD Objects - Graphics Primitives Layer Demo\ProgressBar.o
+LOAD Objects - Graphics Primitives Layer Demo\RadioButton.o
+LOAD Objects - Graphics Primitives Layer Demo\RoundDial.o
+LOAD Objects - Graphics Primitives Layer Demo\Slider.o
+LOAD Objects - Graphics Primitives Layer Demo\StaticText.o
+LOAD Objects - Graphics Primitives Layer Demo\DisplayDriver.o
+LOAD Objects - Graphics Primitives Layer Demo\TimeDelay.o
+LOAD Objects - Graphics Primitives Layer Demo\cpld.o
+                0x00000001                __MPLAB_BUILD = 0x1
+                0x00000001                __MPLAB_DEBUG = 0x1
+                0x00000001                __MPLAB_DEBUGGER_REAL_ICE = 0x1
+                0x00000001                __ICD2RAM = 0x1
+                0x00000fa0                _min_heap_size = 0xfa0
+                0x00000800                _min_stack_size = 0x800
+LOAD C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/size\libgcc.a
+START GROUP
+LOAD C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a
+LOAD C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libm.a
+LOAD C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libe.a
+LOAD C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libdsp.a
+LOAD C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a
+LOAD C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX360F512L.a
+END GROUP
+LOAD C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/size\libgcc.a
+                0x00000400                PROVIDE (_min_stack_size, 0x400)
+                0x00000000                PROVIDE (_min_heap_size, 0x0)
+LOAD C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/./proc/32MX360F512L\processor.o
+                0x00000001                PROVIDE (_vector_spacing, 0x1)
+                0x9fc01000                _ebase_address = 0x9fc01000
+                0xbfc00000                _RESET_ADDR = 0xbfc00000
+                0xbfc00380                _BEV_EXCPT_ADDR = 0xbfc00380
+                0xbfc00480                _DBG_EXCPT_ADDR = 0xbfc00480
+                0xbfc02000                _DBG_CODE_ADDR = 0xbfc02000
+                0x9fc01180                _GEN_EXCPT_ADDR = (_ebase_address + 0x180)
+
+.config_BFC02FF0
+ *(.config_BFC02FF0)
+
+.config_BFC02FF4
+                0xbfc02ff4        0x4
+ *(.config_BFC02FF4)
+ .config_BFC02FF4
+                0xbfc02ff4        0x4 Objects - Graphics Primitives Layer Demo\MainDemo.o
+
+.config_BFC02FF8
+                0xbfc02ff8        0x4
+ *(.config_BFC02FF8)
+ .config_BFC02FF8
+                0xbfc02ff8        0x4 Objects - Graphics Primitives Layer Demo\MainDemo.o
+
+.config_BFC02FFC
+                0xbfc02ffc        0x4
+ *(.config_BFC02FFC)
+ .config_BFC02FFC
+                0xbfc02ffc        0x4 Objects - Graphics Primitives Layer Demo\MainDemo.o
+
+.reset          0xbfc00000       0x10
+ *(.reset)
+ .reset         0xbfc00000       0x10 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o
+                0xbfc00000                _reset
+
+.bev_excpt      0xbfc00380       0x10
+ *(.bev_handler)
+ .bev_handler   0xbfc00380       0x10 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o
+
+.dbg_excpt      0xbfc00480        0x8
+                0xbfc00488                . = (. + DEFINED (_DEBUGGER)?0x8:0x0)
+ *fill*         0xbfc00480        0x8 00
+
+.dbg_code       0xbfc02000      0xff0
+                0xbfc02ff0                . = (. + DEFINED (_DEBUGGER)?0xff0:0x0)
+ *fill*         0xbfc02000      0xff0 00
+
+.app_excpt      0x9fc01180       0x10
+ *(.gen_handler)
+ .gen_handler   0x9fc01180       0x10 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o
+
+.vector_0       0x9fc01200        0x0
+ *(.vector_0)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_0) <= (_vector_spacing << 0x5))), function at exception vector 0 too large)
+
+.vector_1       0x9fc01220        0x0
+ *(.vector_1)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_1) <= (_vector_spacing << 0x5))), function at exception vector 1 too large)
+
+.vector_2       0x9fc01240        0x0
+ *(.vector_2)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_2) <= (_vector_spacing << 0x5))), function at exception vector 2 too large)
+
+.vector_3       0x9fc01260        0x0
+ *(.vector_3)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_3) <= (_vector_spacing << 0x5))), function at exception vector 3 too large)
+
+.vector_4       0x9fc01280        0x0
+ *(.vector_4)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_4) <= (_vector_spacing << 0x5))), function at exception vector 4 too large)
+
+.vector_5       0x9fc012a0        0x0
+ *(.vector_5)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_5) <= (_vector_spacing << 0x5))), function at exception vector 5 too large)
+
+.vector_6       0x9fc012c0        0x0
+ *(.vector_6)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_6) <= (_vector_spacing << 0x5))), function at exception vector 6 too large)
+
+.vector_7       0x9fc012e0        0x0
+ *(.vector_7)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_7) <= (_vector_spacing << 0x5))), function at exception vector 7 too large)
+
+.vector_8       0x9fc01300        0x0
+ *(.vector_8)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_8) <= (_vector_spacing << 0x5))), function at exception vector 8 too large)
+
+.vector_9       0x9fc01320        0x0
+ *(.vector_9)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_9) <= (_vector_spacing << 0x5))), function at exception vector 9 too large)
+
+.vector_10      0x9fc01340        0x0
+ *(.vector_10)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_10) <= (_vector_spacing << 0x5))), function at exception vector 10 too large)
+
+.vector_11      0x9fc01360        0x0
+ *(.vector_11)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_11) <= (_vector_spacing << 0x5))), function at exception vector 11 too large)
+
+.vector_12      0x9fc01380        0x0
+ *(.vector_12)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_12) <= (_vector_spacing << 0x5))), function at exception vector 12 too large)
+
+.vector_13      0x9fc013a0        0x0
+ *(.vector_13)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_13) <= (_vector_spacing << 0x5))), function at exception vector 13 too large)
+
+.vector_14      0x9fc013c0        0x0
+ *(.vector_14)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_14) <= (_vector_spacing << 0x5))), function at exception vector 14 too large)
+
+.vector_15      0x9fc013e0        0x0
+ *(.vector_15)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_15) <= (_vector_spacing << 0x5))), function at exception vector 15 too large)
+
+.vector_16      0x9fc01400        0x0
+ *(.vector_16)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_16) <= (_vector_spacing << 0x5))), function at exception vector 16 too large)
+
+.vector_17      0x9fc01420        0x0
+ *(.vector_17)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_17) <= (_vector_spacing << 0x5))), function at exception vector 17 too large)
+
+.vector_18      0x9fc01440        0x0
+ *(.vector_18)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_18) <= (_vector_spacing << 0x5))), function at exception vector 18 too large)
+
+.vector_19      0x9fc01460        0x0
+ *(.vector_19)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_19) <= (_vector_spacing << 0x5))), function at exception vector 19 too large)
+
+.vector_20      0x9fc01480        0x0
+ *(.vector_20)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_20) <= (_vector_spacing << 0x5))), function at exception vector 20 too large)
+
+.vector_21      0x9fc014a0        0x0
+ *(.vector_21)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_21) <= (_vector_spacing << 0x5))), function at exception vector 21 too large)
+
+.vector_22      0x9fc014c0        0x0
+ *(.vector_22)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_22) <= (_vector_spacing << 0x5))), function at exception vector 22 too large)
+
+.vector_23      0x9fc014e0        0x0
+ *(.vector_23)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_23) <= (_vector_spacing << 0x5))), function at exception vector 23 too large)
+
+.vector_24      0x9fc01500        0x0
+ *(.vector_24)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_24) <= (_vector_spacing << 0x5))), function at exception vector 24 too large)
+
+.vector_25      0x9fc01520        0x0
+ *(.vector_25)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_25) <= (_vector_spacing << 0x5))), function at exception vector 25 too large)
+
+.vector_26      0x9fc01540        0x0
+ *(.vector_26)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_26) <= (_vector_spacing << 0x5))), function at exception vector 26 too large)
+
+.vector_27      0x9fc01560        0x0
+ *(.vector_27)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_27) <= (_vector_spacing << 0x5))), function at exception vector 27 too large)
+
+.vector_28      0x9fc01580        0x0
+ *(.vector_28)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_28) <= (_vector_spacing << 0x5))), function at exception vector 28 too large)
+
+.vector_29      0x9fc015a0        0x0
+ *(.vector_29)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_29) <= (_vector_spacing << 0x5))), function at exception vector 29 too large)
+
+.vector_30      0x9fc015c0        0x0
+ *(.vector_30)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_30) <= (_vector_spacing << 0x5))), function at exception vector 30 too large)
+
+.vector_31      0x9fc015e0        0x0
+ *(.vector_31)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_31) <= (_vector_spacing << 0x5))), function at exception vector 31 too large)
+
+.vector_32      0x9fc01600        0x0
+ *(.vector_32)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_32) <= (_vector_spacing << 0x5))), function at exception vector 32 too large)
+
+.vector_33      0x9fc01620        0x0
+ *(.vector_33)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_33) <= (_vector_spacing << 0x5))), function at exception vector 33 too large)
+
+.vector_34      0x9fc01640        0x0
+ *(.vector_34)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_34) <= (_vector_spacing << 0x5))), function at exception vector 34 too large)
+
+.vector_35      0x9fc01660        0x0
+ *(.vector_35)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_35) <= (_vector_spacing << 0x5))), function at exception vector 35 too large)
+
+.vector_36      0x9fc01680        0x0
+ *(.vector_36)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_36) <= (_vector_spacing << 0x5))), function at exception vector 36 too large)
+
+.vector_37      0x9fc016a0        0x0
+ *(.vector_37)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_37) <= (_vector_spacing << 0x5))), function at exception vector 37 too large)
+
+.vector_38      0x9fc016c0        0x0
+ *(.vector_38)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_38) <= (_vector_spacing << 0x5))), function at exception vector 38 too large)
+
+.vector_39      0x9fc016e0        0x0
+ *(.vector_39)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_39) <= (_vector_spacing << 0x5))), function at exception vector 39 too large)
+
+.vector_40      0x9fc01700        0x0
+ *(.vector_40)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_40) <= (_vector_spacing << 0x5))), function at exception vector 40 too large)
+
+.vector_41      0x9fc01720        0x0
+ *(.vector_41)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_41) <= (_vector_spacing << 0x5))), function at exception vector 41 too large)
+
+.vector_42      0x9fc01740        0x0
+ *(.vector_42)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_42) <= (_vector_spacing << 0x5))), function at exception vector 42 too large)
+
+.vector_43      0x9fc01760        0x0
+ *(.vector_43)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_43) <= (_vector_spacing << 0x5))), function at exception vector 43 too large)
+
+.vector_44      0x9fc01780        0x0
+ *(.vector_44)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_44) <= (_vector_spacing << 0x5))), function at exception vector 44 too large)
+
+.vector_45      0x9fc017a0        0x0
+ *(.vector_45)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_45) <= (_vector_spacing << 0x5))), function at exception vector 45 too large)
+
+.vector_46      0x9fc017c0        0x0
+ *(.vector_46)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_46) <= (_vector_spacing << 0x5))), function at exception vector 46 too large)
+
+.vector_47      0x9fc017e0        0x0
+ *(.vector_47)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_47) <= (_vector_spacing << 0x5))), function at exception vector 47 too large)
+
+.vector_48      0x9fc01800        0x0
+ *(.vector_48)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_48) <= (_vector_spacing << 0x5))), function at exception vector 48 too large)
+
+.vector_49      0x9fc01820        0x0
+ *(.vector_49)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_49) <= (_vector_spacing << 0x5))), function at exception vector 49 too large)
+
+.vector_50      0x9fc01840        0x0
+ *(.vector_50)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_50) <= (_vector_spacing << 0x5))), function at exception vector 50 too large)
+
+.vector_51      0x9fc01860        0x0
+ *(.vector_51)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_51) <= (_vector_spacing << 0x5))), function at exception vector 51 too large)
+
+.vector_52      0x9fc01880        0x0
+ *(.vector_52)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_52) <= (_vector_spacing << 0x5))), function at exception vector 52 too large)
+
+.vector_53      0x9fc018a0        0x0
+ *(.vector_53)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_53) <= (_vector_spacing << 0x5))), function at exception vector 53 too large)
+
+.vector_54      0x9fc018c0        0x0
+ *(.vector_54)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_54) <= (_vector_spacing << 0x5))), function at exception vector 54 too large)
+
+.vector_55      0x9fc018e0        0x0
+ *(.vector_55)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_55) <= (_vector_spacing << 0x5))), function at exception vector 55 too large)
+
+.vector_56      0x9fc01900        0x0
+ *(.vector_56)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_56) <= (_vector_spacing << 0x5))), function at exception vector 56 too large)
+
+.vector_57      0x9fc01920        0x0
+ *(.vector_57)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_57) <= (_vector_spacing << 0x5))), function at exception vector 57 too large)
+
+.vector_58      0x9fc01940        0x0
+ *(.vector_58)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_58) <= (_vector_spacing << 0x5))), function at exception vector 58 too large)
+
+.vector_59      0x9fc01960        0x0
+ *(.vector_59)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_59) <= (_vector_spacing << 0x5))), function at exception vector 59 too large)
+
+.vector_60      0x9fc01980        0x0
+ *(.vector_60)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_60) <= (_vector_spacing << 0x5))), function at exception vector 60 too large)
+
+.vector_61      0x9fc019a0        0x0
+ *(.vector_61)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_61) <= (_vector_spacing << 0x5))), function at exception vector 61 too large)
+
+.vector_62      0x9fc019c0        0x0
+ *(.vector_62)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_62) <= (_vector_spacing << 0x5))), function at exception vector 62 too large)
+
+.vector_63      0x9fc019e0        0x0
+ *(.vector_63)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_63) <= (_vector_spacing << 0x5))), function at exception vector 63 too large)
+
+.startup        0x9fc00490      0x1e0
+ *(.startup)
+ .startup       0x9fc00490      0x1e0 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o
+
+.text           0x9d000000     0x4000
+                0x9d000000                _text_begin = .
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x9d000000       0x18 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o
+ .text          0x9d000018      0x5ec Objects - Graphics Primitives Layer Demo\MainDemo.o
+                0x9d000018                main
+ .text          0x9d000604     0x1814 Objects - Graphics Primitives Layer Demo\Primitive.o
+                0x9d001154                Bevel
+                0x9d001990                DrawPoly
+                0x9d001b00                OutTextXY
+                0x9d0015d0                FillBevel
+                0x9d001a8c                OutText
+                0x9d001a58                SetFont
+                0x9d001df8                GetImageHeight
+                0x9d001dd8                GetImageWidth
+                0x9d000dd4                Line
+                0x9d000648                Arc
+                0x9d001db8                GetTextHeight
+                0x9d001d44                GetTextWidth
+                0x9d000604                InitGraph
+                0x9d001b54                OutChar
+ .text          0x9d001e18     0x19b0 Objects - Graphics Primitives Layer Demo\DisplayDriver.o
+                0x9d001e18                SetReg
+                0x9d00354c                PutImage16BPP
+                0x9d002c00                PutImage
+                0x9d002504                GetPixel
+                0x9d002a14                ClearDevice
+                0x9d002cc4                PutImage1BPP
+                0x9d001ee4                ResetDevice
+                0x9d002794                Bar
+                0x9d0022cc                PutPixel
+                0x9d002fbc                PutImage4BPP
+                0x9d00329c                PutImage8BPP
+ .text          0x9d0037c8       0xfc Objects - Graphics Primitives Layer Demo\TimeDelay.o
+                0x9d00383c                DelayMs
+                0x9d0037c8                Delay10us
+ .text          0x9d0038c4      0x168 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(memcpy.o)
+                0x9d0038c4                memcpy
+ .text.general_exception
+                0x9d003a2c       0xd0 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(general-exception.o)
+                0x9d003a2c                _general_exception_context
+ .text.exit     0x9d003afc       0x9c C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o)
+                0x9d003afc                exit
+ .text._filbuf_simple
+                0x9d003b98       0x48 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+                0x9d003b98                _filbuf_simple
+ .text._fflush_simple
+                0x9d003be0       0x6c C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+                0x9d003be0                _fflush_simple
+ .text._flsbuf_simple
+                0x9d003c4c       0xdc C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+                0x9d003c4c                _flsbuf_simple
+ .text._fwrite_simple
+                0x9d003d28       0x84 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+                0x9d003d28                _fwrite_simple
+ .text._fsync_simple
+                0x9d003dac       0x34 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+                0x9d003dac                _fsync_simple
+ .text._weak_pthread_mutex_init
+                0x9d003de0        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d003de0                _weak_pthread_mutex_init
+                0x9d003de0                pthread_mutex_init
+ .text._weak_pthread_mutex_destroy
+                0x9d003de8        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d003de8                _weak_pthread_mutex_destroy
+                0x9d003de8                pthread_mutex_destroy
+ .text._weak_pthread_mutex_lock
+                0x9d003df0        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d003df0                _weak_pthread_mutex_lock
+                0x9d003df0                pthread_mutex_lock
+ .text._weak_pthread_mutex_trylock
+                0x9d003df8        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d003df8                _weak_pthread_mutex_trylock
+                0x9d003df8                pthread_mutex_trylock
+ .text._weak_pthread_mutex_unlock
+                0x9d003e00        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d003e00                _weak_pthread_mutex_unlock
+                0x9d003e00                pthread_mutex_unlock
+ .text._weak_pthread_mutex_setname_np
+                0x9d003e08        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d003e08                pthread_mutex_setname_np
+                0x9d003e08                _weak_pthread_mutex_setname_np
+ .text._weak_pthread_mutexattr_init
+                0x9d003e10        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d003e10                _weak_pthread_mutexattr_init
+                0x9d003e10                pthread_mutexattr_init
+ .text._weak_pthread_mutexattr_destroy
+                0x9d003e18        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d003e18                pthread_mutexattr_destroy
+                0x9d003e18                _weak_pthread_mutexattr_destroy
+ .text._weak_pthread_mutexattr_setname_np
+                0x9d003e20        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d003e20                _weak_pthread_mutexattr_setname_np
+                0x9d003e20                pthread_mutexattr_setname_np
+ .text._weak_pthread_mutexattr_settype_np
+                0x9d003e28        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d003e28                _weak_pthread_mutexattr_settype_np
+                0x9d003e28                pthread_mutexattr_settype_np
+ .text._weak_pthread_sysconf_np
+                0x9d003e30        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d003e30                _weak_pthread_sysconf_np
+                0x9d003e30                pthread_sysconf_np
+ .text._weak_pthread_sigdisable_np
+                0x9d003e38        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d003e38                _weak_pthread_sigdisable_np
+                0x9d003e38                pthread_sigdisable_np
+ .text._weak_pthread_sigrestore_np
+                0x9d003e40        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d003e40                pthread_sigrestore_np
+                0x9d003e40                _weak_pthread_sigrestore_np
+ .text._weak__pthread_cleanup_push
+                0x9d003e48        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d003e48                _weak__pthread_cleanup_push
+                0x9d003e48                _pthread_cleanup_push
+ .text._weak__pthread_cleanup_pop
+                0x9d003e50        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d003e50                _pthread_cleanup_pop
+                0x9d003e50                _weak__pthread_cleanup_pop
+ .text._weak__pthread_cleanup_push_defer
+                0x9d003e58        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d003e58                _weak__pthread_cleanup_push_defer
+                0x9d003e58                _pthread_cleanup_push_defer
+ .text._weak__pthread_cleanup_pop_restore
+                0x9d003e60        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d003e60                _pthread_cleanup_pop_restore
+                0x9d003e60                _weak__pthread_cleanup_pop_restore
+ .text._weak_pthread_once
+                0x9d003e68       0x2c C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d003e68                _weak_pthread_once
+                0x9d003e68                pthread_once
+                0x9d003e68                _pthread_once
+ .text._weak_pthread_key_create
+                0x9d003e94        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d003e94                pthread_key_create
+                0x9d003e94                _weak_pthread_key_create
+ .text._weak_pthread_setspecific
+                0x9d003e9c        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d003e9c                _weak_pthread_setspecific
+                0x9d003e9c                pthread_setspecific
+ .text._weak_pthread_getspecific
+                0x9d003ea4        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d003ea4                pthread_getspecific
+                0x9d003ea4                _weak_pthread_getspecific
+ .text._weak__libc_private_storage
+                0x9d003eac        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d003eac                _libc_private_storage
+                0x9d003eac                _weak__libc_private_storage
+ .text._general_exception_handler
+                0x9d003eb4        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-general-exception-handler.o)
+                0x9d003eb4                _general_exception_handler
+ .text._bootstrap_exception_handler
+                0x9d003ebc        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-bootstrap-exception-handler.o)
+                0x9d003ebc                _bootstrap_exception_handler
+ .text._on_reset
+                0x9d003ec4        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-reset.o)
+                0x9d003ec4                _on_reset
+ .text._on_bootstrap
+                0x9d003ecc        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-bootstrap.o)
+                0x9d003ecc                _on_bootstrap
+ .text          0x9d003ed4       0x18 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-nmi-handler.o)
+                0x9d003ed4                _nmi_handler
+ .text._mon_getc
+                0x9d003eec        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_getc.o)
+                0x9d003eec                _mon_getc
+ .text._mon_write
+                0x9d003ef4       0x4c C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_write.o)
+                0x9d003ef4                _mon_write
+ .text._exit    0x9d003f40        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_exit.o)
+                0x9d003f40                _exit
+ .text._mon_putc
+                0x9d003f48       0x28 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_putc.o)
+                0x9d003f48                _mon_putc
+ .text.INTDisableInterrupts
+                0x9d003f70        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_disable_interrupts_lib.o)
+                0x9d003f70                INTDisableInterrupts
+ .text.INTEnableSystemMultiVectoredInt
+                0x9d003f78       0x34 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_enable_mv_int_lib.o)
+                0x9d003f78                INTEnableSystemMultiVectoredInt
+ .text.INTRestoreInterrupts
+                0x9d003fac       0x1c C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_restore_interrupts_lib.o)
+                0x9d003fac                INTRestoreInterrupts
+ .text.CheKseg0CacheOff
+                0x9d003fc8       0x18 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(pcache.o)
+                0x9d003fc8                CheKseg0CacheOff
+ .text.CheKseg0CacheOn
+                0x9d003fe0       0x18 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(pcache.o)
+                0x9d003fe0                CheKseg0CacheOn
+ .text.INTEnableInterrupts
+                0x9d003ff8        0x8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_enable_interrupts_lib.o)
+                0x9d003ff8                INTEnableInterrupts
+ *(.text.*personality*)
+ *(.gnu.warning)
+ *(.mips16.fn.*)
+ *(.mips16.call.*)
+                0x9d004000                _text_end = .
+
+.rodata         0x9d004000    0x11d7c
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x9d004000     0x1d74 Objects - Graphics Primitives Layer Demo\Font35PixelsHeight.o
+                0x9d004008                L4301
+                0x9d004000                Font35
+ .rodata        0x9d005d74       0x10 Objects - Graphics Primitives Layer Demo\MainDemo.o
+ .rodata.str1.4
+                0x9d005d84       0x31 Objects - Graphics Primitives Layer Demo\MainDemo.o
+                                 0x34 (size before relaxing)
+ *fill*         0x9d005db5        0x3 00
+ .rodata        0x9d005db8     0xed1c Objects - Graphics Primitives Layer Demo\Pictures C32.o
+                0x9d005dc0                L17867
+                0x9d00e880                L30086
+                0x9d00a8d0                flower8bit
+                0x9d00d064                flower4bit
+                0x9d005db8                flower16bit
+                0x9d00e398                L20864
+                0x9d00a8d8                L18630
+                0x9d00d06c                L27635
+                0x9d00e390                flower1bit
+ .rodata        0x9d014ad4     0x122c Objects - Graphics Primitives Layer Demo\Font25PixelsHeight.o
+                0x9d014adc                L21553
+                0x9d014ad4                Font25
+ .rodata        0x9d015d00       0x68 Objects - Graphics Primitives Layer Demo\Primitive.o
+ .rodata        0x9d015d68       0x14 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobdata.o)
+                0x9d015d68                _io_funcs
+ *(.rodata1)
+                0x9d015d7c                . = ALIGN (0x4)
+
+.sdata2         0x9d015d7c        0x0
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x9d015d7c                . = ALIGN (0x4)
+
+.sbss2          0x9d015d7c        0x0
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+                0x9d015d7c                . = ALIGN (0x4)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.dbg_data       0xa0000000      0x200
+                0xa0000200                . = (. + DEFINED (_DEBUGGER)?0x200:0x0)
+ *fill*         0xa0000000      0x200 00
+
+.data           0xa0000200       0xf4 load address 0x9d015d7c
+                0xa0000200                _data_begin = .
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0xa0000200       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o)
+                0xa0000200                __exfun_mx
+ .data          0xa0000220       0xd4 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobdata.o)
+ *(.gnu.linkonce.d.*personality*)
+ *(.data1)
+                0x9d015d7c                _data_image_begin = LOADADDR (.data)
+
+.eh_frame
+ *(.eh_frame)
+                0xa00082f0                _gp = (ALIGN (0x10) + 0x7ff0)
+
+.got
+ *(.got.plt)
+ *(.got)
+
+.sdata          0xa00002f4       0x10 load address 0x9d015e70
+                0xa00002f4                _sdata_begin = .
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0xa00002f4        0x8 Objects - Graphics Primitives Layer Demo\Pictures C32.o
+                0xa00002f4                kulogo
+ .sdata         0xa00002fc        0x1 Objects - Graphics Primitives Layer Demo\Primitive.o
+ *fill*         0xa00002fd        0x3 00
+ .sdata         0xa0000300        0x4 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobdata.o)
+                0xa0000300                _libc_data
+                0xa0000304                _sdata_end = .
+
+.lit8
+ *(.lit8)
+
+.lit4
+ *(.lit4)
+                0xa0000304                . = ALIGN (0x4)
+                0xa0000304                _data_end = .
+                0xa0000304                _bss_begin = .
+
+.sbss           0xa0000304       0x64
+                0xa0000304                _sbss_begin = .
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0xa0000304       0x3c Objects - Graphics Primitives Layer Demo\Primitive.o
+ .sbss          0xa0000340        0x4 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(errno.o)
+                0xa0000340                errno
+ *(.scommon)
+ .scommon       0xa0000344       0x17 Objects - Graphics Primitives Layer Demo\Primitive.o
+                0xa0000344                _cursorY
+                0xa0000346                _fontOrientation
+                0xa0000348                _fontFirstChar
+                0xa000034a                _fontHeight
+                0xa000034c                _bevelDrawType
+                0xa000034e                _cursorX
+                0xa0000350                _fontLastChar
+                0xa0000354                _font
+                0xa0000358                _lineType
+                0xa000035a                _lineThickness
+ *fill*         0xa000035b        0x1 00
+ .scommon       0xa000035c        0xc Objects - Graphics Primitives Layer Demo\DisplayDriver.o
+                0xa000035c                _clipRgn
+                0xa000035e                _clipRight
+                0xa0000360                _clipBottom
+                0xa0000362                _clipTop
+                0xa0000364                _color
+                0xa0000366                _clipLeft
+                0xa0000368                _sbss_end = .
+
+.bss            0xa0000368      0x10c
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0xa0000368       0x88 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobdata.o)
+ .bss           0xa00003f0       0x80 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+ .bss           0xa0000470        0x4 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0xa0000470                __isthreaded
+ *(COMMON)
+                0xa0000474                . = ALIGN (0x4)
+                0xa0000474                . = ALIGN (0x4)
+                0xa0000474                _end = .
+                0xa0000474                _bss_end = .
+
+.heap           0xa0000474      0xfa0
+                0xa0000474                _heap = .
+                0xa0001414                . = (. + _min_heap_size)
+ *fill*         0xa0000474      0xfa0 00
+
+.stack          0xa0001414      0x800
+                0xa0001c14                . = (. + _min_stack_size)
+ *fill*         0xa0001414      0x800 00
+
+.ramfunc        0xa0002000        0x0 load address 0x9d015e80
+                0xa0002000                _ramfunc_begin = .
+ *(.ramfunc .ramfunc.*)
+                0xa0002000                . = ALIGN (0x4)
+                0xa0002000                _ramfunc_end = .
+                0x9d015e80                _ramfunc_image_begin = LOADADDR (.ramfunc)
+                0x00000000                _ramfunc_length = SIZEOF (.ramfunc)
+                0x00002000                _bmxdkpba_address = (_ramfunc_begin - 0xa0000000)
+                0x00008000                _bmxdudba_address = 0x8000
+                0x00008000                _bmxdupba_address = 0x8000
+                0xa0008000                _stack = (_ramfunc_length > 0x0)?(_ramfunc_begin - 0x4):0xa0008000
+                0x00000001                ASSERT (((_min_stack_size + _min_heap_size) <= (_stack - _heap)), Not enough space to allocate both stack and heap.  Reduce heap and/or stack size.)
+
+.pdr            0x00000000      0x9c0
+ *(.pdr)
+ .pdr           0x00000000       0xa0 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o
+ .pdr           0x000000a0       0x20 Objects - Graphics Primitives Layer Demo\MainDemo.o
+ .pdr           0x000000c0      0x1c0 Objects - Graphics Primitives Layer Demo\Primitive.o
+ .pdr           0x00000280      0x160 Objects - Graphics Primitives Layer Demo\DisplayDriver.o
+ .pdr           0x000003e0       0x40 Objects - Graphics Primitives Layer Demo\TimeDelay.o
+ .pdr           0x00000420       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(memcpy.o)
+ .pdr           0x00000440       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(general-exception.o)
+ .pdr           0x00000460       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o)
+ .pdr           0x00000480       0xa0 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+ .pdr           0x00000520      0x2c0 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+ .pdr           0x000007e0       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-general-exception-handler.o)
+ .pdr           0x00000800       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-bootstrap-exception-handler.o)
+ .pdr           0x00000820       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-reset.o)
+ .pdr           0x00000840       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-bootstrap.o)
+ .pdr           0x00000860       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-nmi-handler.o)
+ .pdr           0x00000880       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_getc.o)
+ .pdr           0x000008a0       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_write.o)
+ .pdr           0x000008c0       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_exit.o)
+ .pdr           0x000008e0       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_putc.o)
+ .pdr           0x00000900       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_disable_interrupts_lib.o)
+ .pdr           0x00000920       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_enable_mv_int_lib.o)
+ .pdr           0x00000940       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_restore_interrupts_lib.o)
+ .pdr           0x00000960       0x40 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(pcache.o)
+ .pdr           0x000009a0       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_enable_interrupts_lib.o)
+
+.reginfo        0x00000000       0x18
+ *(.reginfo)
+ .reginfo       0x00000000       0x18 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000      0xe7f
+ *(.comment)
+ .comment       0x00000000       0x4d Objects - Graphics Primitives Layer Demo\Font35PixelsHeight.o
+ .comment       0x0000004d       0x4d Objects - Graphics Primitives Layer Demo\MainDemo.o
+ .comment       0x0000009a       0x4d Objects - Graphics Primitives Layer Demo\Pictures C32.o
+ .comment       0x000000e7       0x4d Objects - Graphics Primitives Layer Demo\Font25PixelsHeight.o
+ .comment       0x00000134       0x4d Objects - Graphics Primitives Layer Demo\Window.o
+ .comment       0x00000181       0x4d Objects - Graphics Primitives Layer Demo\Button.o
+ .comment       0x000001ce       0x4d Objects - Graphics Primitives Layer Demo\Chart.o
+ .comment       0x0000021b       0x4d Objects - Graphics Primitives Layer Demo\CheckBox.o
+ .comment       0x00000268       0x4d Objects - Graphics Primitives Layer Demo\EditBox.o
+ .comment       0x000002b5       0x4d Objects - Graphics Primitives Layer Demo\GOL.o
+ .comment       0x00000302       0x4d Objects - Graphics Primitives Layer Demo\GOLFontDefault.o
+ .comment       0x0000034f       0x4d Objects - Graphics Primitives Layer Demo\Grid.o
+ .comment       0x0000039c       0x4d Objects - Graphics Primitives Layer Demo\GroupBox.o
+ .comment       0x000003e9       0x4d Objects - Graphics Primitives Layer Demo\ListBox.o
+ .comment       0x00000436       0x4d Objects - Graphics Primitives Layer Demo\Meter.o
+ .comment       0x00000483       0x4d Objects - Graphics Primitives Layer Demo\Picture.o
+ .comment       0x000004d0       0x4d Objects - Graphics Primitives Layer Demo\Primitive.o
+ .comment       0x0000051d       0x4d Objects - Graphics Primitives Layer Demo\ProgressBar.o
+ .comment       0x0000056a       0x4d Objects - Graphics Primitives Layer Demo\RadioButton.o
+ .comment       0x000005b7       0x4d Objects - Graphics Primitives Layer Demo\RoundDial.o
+ .comment       0x00000604       0x4d Objects - Graphics Primitives Layer Demo\Slider.o
+ .comment       0x00000651       0x4d Objects - Graphics Primitives Layer Demo\StaticText.o
+ .comment       0x0000069e       0x4d Objects - Graphics Primitives Layer Demo\DisplayDriver.o
+ .comment       0x000006eb       0x4d Objects - Graphics Primitives Layer Demo\TimeDelay.o
+ .comment       0x00000738       0x4d Objects - Graphics Primitives Layer Demo\cpld.o
+ .comment       0x00000785       0x9a C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o)
+ .comment       0x0000081f       0xa0 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobdata.o)
+ .comment       0x000008bf       0xa1 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+ .comment       0x00000960       0x9b C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+ .comment       0x000009fb       0x4d C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-general-exception-handler.o)
+ .comment       0x00000a48       0x4d C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-bootstrap-exception-handler.o)
+ .comment       0x00000a95       0x4d C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-reset.o)
+ .comment       0x00000ae2       0x4d C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-bootstrap.o)
+ .comment       0x00000b2f       0x4d C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_getc.o)
+ .comment       0x00000b7c       0x4d C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_write.o)
+ .comment       0x00000bc9       0x4d C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_exit.o)
+ .comment       0x00000c16       0x9b C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(errno.o)
+ .comment       0x00000cb1       0x4d C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_putc.o)
+ .comment       0x00000cfe       0x4d C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_disable_interrupts_lib.o)
+ .comment       0x00000d4b       0x4d C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_enable_mv_int_lib.o)
+ .comment       0x00000d98       0x4d C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_restore_interrupts_lib.o)
+ .comment       0x00000de5       0x4d C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(pcache.o)
+ .comment       0x00000e32       0x4d C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_enable_interrupts_lib.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x3d0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 Objects - Graphics Primitives Layer Demo\MainDemo.o
+ .debug_aranges
+                0x00000020       0x20 Objects - Graphics Primitives Layer Demo\Primitive.o
+ .debug_aranges
+                0x00000040       0x20 Objects - Graphics Primitives Layer Demo\DisplayDriver.o
+ .debug_aranges
+                0x00000060       0x20 Objects - Graphics Primitives Layer Demo\TimeDelay.o
+ .debug_aranges
+                0x00000080       0x28 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o)
+ .debug_aranges
+                0x000000a8       0x48 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+ .debug_aranges
+                0x000000f0       0xd0 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+ .debug_aranges
+                0x000001c0       0x28 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-general-exception-handler.o)
+ .debug_aranges
+                0x000001e8       0x28 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-bootstrap-exception-handler.o)
+ .debug_aranges
+                0x00000210       0x28 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-reset.o)
+ .debug_aranges
+                0x00000238       0x28 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-bootstrap.o)
+ .debug_aranges
+                0x00000260       0x28 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_getc.o)
+ .debug_aranges
+                0x00000288       0x28 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_write.o)
+ .debug_aranges
+                0x000002b0       0x28 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_exit.o)
+ .debug_aranges
+                0x000002d8       0x28 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_putc.o)
+ .debug_aranges
+                0x00000300       0x28 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_disable_interrupts_lib.o)
+ .debug_aranges
+                0x00000328       0x28 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_enable_mv_int_lib.o)
+ .debug_aranges
+                0x00000350       0x28 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_restore_interrupts_lib.o)
+ .debug_aranges
+                0x00000378       0x30 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(pcache.o)
+ .debug_aranges
+                0x000003a8       0x28 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_enable_interrupts_lib.o)
+
+.debug_pubnames
+                0x00000000      0x917
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x27 Objects - Graphics Primitives Layer Demo\Font35PixelsHeight.o
+ .debug_pubnames
+                0x00000027       0x1b Objects - Graphics Primitives Layer Demo\MainDemo.o
+ .debug_pubnames
+                0x00000042       0x91 Objects - Graphics Primitives Layer Demo\Pictures C32.o
+ .debug_pubnames
+                0x000000d3       0x28 Objects - Graphics Primitives Layer Demo\Font25PixelsHeight.o
+ .debug_pubnames
+                0x000000fb      0x172 Objects - Graphics Primitives Layer Demo\Primitive.o
+ .debug_pubnames
+                0x0000026d      0x103 Objects - Graphics Primitives Layer Demo\DisplayDriver.o
+ .debug_pubnames
+                0x00000370       0x2c Objects - Graphics Primitives Layer Demo\TimeDelay.o
+ .debug_pubnames
+                0x0000039c       0x1b C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o)
+ .debug_pubnames
+                0x000003b7       0x70 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+ .debug_pubnames
+                0x00000427      0x2da C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+ .debug_pubnames
+                0x00000701       0x31 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-general-exception-handler.o)
+ .debug_pubnames
+                0x00000732       0x33 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-bootstrap-exception-handler.o)
+ .debug_pubnames
+                0x00000765       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-reset.o)
+ .debug_pubnames
+                0x00000785       0x24 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-bootstrap.o)
+ .debug_pubnames
+                0x000007a9       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_getc.o)
+ .debug_pubnames
+                0x000007c9       0x21 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_write.o)
+ .debug_pubnames
+                0x000007ea       0x1c C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_exit.o)
+ .debug_pubnames
+                0x00000806       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_putc.o)
+ .debug_pubnames
+                0x00000826       0x2b C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_disable_interrupts_lib.o)
+ .debug_pubnames
+                0x00000851       0x36 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_enable_mv_int_lib.o)
+ .debug_pubnames
+                0x00000887       0x2b C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_restore_interrupts_lib.o)
+ .debug_pubnames
+                0x000008b2       0x3b C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(pcache.o)
+ .debug_pubnames
+                0x000008ed       0x2a C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_enable_interrupts_lib.o)
+
+.debug_info     0x00000000     0x7d89
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0xaa Objects - Graphics Primitives Layer Demo\Font35PixelsHeight.o
+ .debug_info    0x000000aa      0x7dc Objects - Graphics Primitives Layer Demo\MainDemo.o
+ .debug_info    0x00000886      0x4b7 Objects - Graphics Primitives Layer Demo\Pictures C32.o
+ .debug_info    0x00000d3d       0xaa Objects - Graphics Primitives Layer Demo\Font25PixelsHeight.o
+ .debug_info    0x00000de7      0x300 Objects - Graphics Primitives Layer Demo\Window.o
+ .debug_info    0x000010e7      0x300 Objects - Graphics Primitives Layer Demo\Button.o
+ .debug_info    0x000013e7      0x300 Objects - Graphics Primitives Layer Demo\Chart.o
+ .debug_info    0x000016e7      0x300 Objects - Graphics Primitives Layer Demo\CheckBox.o
+ .debug_info    0x000019e7      0x300 Objects - Graphics Primitives Layer Demo\EditBox.o
+ .debug_info    0x00001ce7      0x300 Objects - Graphics Primitives Layer Demo\GOL.o
+ .debug_info    0x00001fe7      0x300 Objects - Graphics Primitives Layer Demo\GOLFontDefault.o
+ .debug_info    0x000022e7      0x300 Objects - Graphics Primitives Layer Demo\Grid.o
+ .debug_info    0x000025e7      0x300 Objects - Graphics Primitives Layer Demo\GroupBox.o
+ .debug_info    0x000028e7      0x300 Objects - Graphics Primitives Layer Demo\ListBox.o
+ .debug_info    0x00002be7      0x300 Objects - Graphics Primitives Layer Demo\Meter.o
+ .debug_info    0x00002ee7      0x300 Objects - Graphics Primitives Layer Demo\Picture.o
+ .debug_info    0x000031e7     0x14ef Objects - Graphics Primitives Layer Demo\Primitive.o
+ .debug_info    0x000046d6      0x300 Objects - Graphics Primitives Layer Demo\ProgressBar.o
+ .debug_info    0x000049d6      0x300 Objects - Graphics Primitives Layer Demo\RadioButton.o
+ .debug_info    0x00004cd6      0x300 Objects - Graphics Primitives Layer Demo\RoundDial.o
+ .debug_info    0x00004fd6      0x300 Objects - Graphics Primitives Layer Demo\Slider.o
+ .debug_info    0x000052d6      0x300 Objects - Graphics Primitives Layer Demo\StaticText.o
+ .debug_info    0x000055d6     0x1e51 Objects - Graphics Primitives Layer Demo\DisplayDriver.o
+ .debug_info    0x00007427      0x48e Objects - Graphics Primitives Layer Demo\TimeDelay.o
+ .debug_info    0x000078b5       0x30 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o)
+ .debug_info    0x000078e5       0x78 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+ .debug_info    0x0000795d      0x1aa C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+ .debug_info    0x00007b07       0x30 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-general-exception-handler.o)
+ .debug_info    0x00007b37       0x30 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-bootstrap-exception-handler.o)
+ .debug_info    0x00007b67       0x30 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-reset.o)
+ .debug_info    0x00007b97       0x30 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-bootstrap.o)
+ .debug_info    0x00007bc7       0x30 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_getc.o)
+ .debug_info    0x00007bf7       0x30 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_write.o)
+ .debug_info    0x00007c27       0x30 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_exit.o)
+ .debug_info    0x00007c57       0x30 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_putc.o)
+ .debug_info    0x00007c87       0x30 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_disable_interrupts_lib.o)
+ .debug_info    0x00007cb7       0x30 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_enable_mv_int_lib.o)
+ .debug_info    0x00007ce7       0x30 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_restore_interrupts_lib.o)
+ .debug_info    0x00007d17       0x42 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(pcache.o)
+ .debug_info    0x00007d59       0x30 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_enable_interrupts_lib.o)
+
+.debug_abbrev   0x00000000     0x1732
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x6e Objects - Graphics Primitives Layer Demo\Font35PixelsHeight.o
+ .debug_abbrev  0x0000006e      0x208 Objects - Graphics Primitives Layer Demo\MainDemo.o
+ .debug_abbrev  0x00000276      0x12a Objects - Graphics Primitives Layer Demo\Pictures C32.o
+ .debug_abbrev  0x000003a0       0x6e Objects - Graphics Primitives Layer Demo\Font25PixelsHeight.o
+ .debug_abbrev  0x0000040e       0xab Objects - Graphics Primitives Layer Demo\Window.o
+ .debug_abbrev  0x000004b9       0xab Objects - Graphics Primitives Layer Demo\Button.o
+ .debug_abbrev  0x00000564       0xab Objects - Graphics Primitives Layer Demo\Chart.o
+ .debug_abbrev  0x0000060f       0xab Objects - Graphics Primitives Layer Demo\CheckBox.o
+ .debug_abbrev  0x000006ba       0xab Objects - Graphics Primitives Layer Demo\EditBox.o
+ .debug_abbrev  0x00000765       0xab Objects - Graphics Primitives Layer Demo\GOL.o
+ .debug_abbrev  0x00000810       0xab Objects - Graphics Primitives Layer Demo\GOLFontDefault.o
+ .debug_abbrev  0x000008bb       0xab Objects - Graphics Primitives Layer Demo\Grid.o
+ .debug_abbrev  0x00000966       0xab Objects - Graphics Primitives Layer Demo\GroupBox.o
+ .debug_abbrev  0x00000a11       0xab Objects - Graphics Primitives Layer Demo\ListBox.o
+ .debug_abbrev  0x00000abc       0xab Objects - Graphics Primitives Layer Demo\Meter.o
+ .debug_abbrev  0x00000b67       0xab Objects - Graphics Primitives Layer Demo\Picture.o
+ .debug_abbrev  0x00000c12      0x271 Objects - Graphics Primitives Layer Demo\Primitive.o
+ .debug_abbrev  0x00000e83       0xab Objects - Graphics Primitives Layer Demo\ProgressBar.o
+ .debug_abbrev  0x00000f2e       0xab Objects - Graphics Primitives Layer Demo\RadioButton.o
+ .debug_abbrev  0x00000fd9       0xab Objects - Graphics Primitives Layer Demo\RoundDial.o
+ .debug_abbrev  0x00001084       0xab Objects - Graphics Primitives Layer Demo\Slider.o
+ .debug_abbrev  0x0000112f       0xab Objects - Graphics Primitives Layer Demo\StaticText.o
+ .debug_abbrev  0x000011da      0x245 Objects - Graphics Primitives Layer Demo\DisplayDriver.o
+ .debug_abbrev  0x0000141f       0xe0 Objects - Graphics Primitives Layer Demo\TimeDelay.o
+ .debug_abbrev  0x000014ff        0x1 Objects - Graphics Primitives Layer Demo\cpld.o
+ .debug_abbrev  0x00001500       0x23 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o)
+ .debug_abbrev  0x00001523        0x1 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobdata.o)
+ .debug_abbrev  0x00001524       0x23 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+ .debug_abbrev  0x00001547       0x23 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+ .debug_abbrev  0x0000156a       0x23 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-general-exception-handler.o)
+ .debug_abbrev  0x0000158d       0x23 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-bootstrap-exception-handler.o)
+ .debug_abbrev  0x000015b0       0x23 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-reset.o)
+ .debug_abbrev  0x000015d3       0x23 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-bootstrap.o)
+ .debug_abbrev  0x000015f6       0x23 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_getc.o)
+ .debug_abbrev  0x00001619       0x23 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_write.o)
+ .debug_abbrev  0x0000163c       0x23 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_exit.o)
+ .debug_abbrev  0x0000165f        0x1 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(errno.o)
+ .debug_abbrev  0x00001660       0x23 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_putc.o)
+ .debug_abbrev  0x00001683       0x23 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_disable_interrupts_lib.o)
+ .debug_abbrev  0x000016a6       0x23 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_enable_mv_int_lib.o)
+ .debug_abbrev  0x000016c9       0x23 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_restore_interrupts_lib.o)
+ .debug_abbrev  0x000016ec       0x23 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(pcache.o)
+ .debug_abbrev  0x0000170f       0x23 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_enable_interrupts_lib.o)
+
+.debug_line     0x00000000     0x2555
+ *(.debug_line)
+ .debug_line    0x00000000       0x32 Objects - Graphics Primitives Layer Demo\Font35PixelsHeight.o
+ .debug_line    0x00000032      0x302 Objects - Graphics Primitives Layer Demo\MainDemo.o
+ .debug_line    0x00000334      0x122 Objects - Graphics Primitives Layer Demo\Pictures C32.o
+ .debug_line    0x00000456       0x32 Objects - Graphics Primitives Layer Demo\Font25PixelsHeight.o
+ .debug_line    0x00000488       0x90 Objects - Graphics Primitives Layer Demo\Window.o
+ .debug_line    0x00000518       0x90 Objects - Graphics Primitives Layer Demo\Button.o
+ .debug_line    0x000005a8       0x90 Objects - Graphics Primitives Layer Demo\Chart.o
+ .debug_line    0x00000638       0x90 Objects - Graphics Primitives Layer Demo\CheckBox.o
+ .debug_line    0x000006c8       0x90 Objects - Graphics Primitives Layer Demo\EditBox.o
+ .debug_line    0x00000758       0x90 Objects - Graphics Primitives Layer Demo\GOL.o
+ .debug_line    0x000007e8       0x90 Objects - Graphics Primitives Layer Demo\GOLFontDefault.o
+ .debug_line    0x00000878       0x90 Objects - Graphics Primitives Layer Demo\Grid.o
+ .debug_line    0x00000908       0x90 Objects - Graphics Primitives Layer Demo\GroupBox.o
+ .debug_line    0x00000998       0x90 Objects - Graphics Primitives Layer Demo\ListBox.o
+ .debug_line    0x00000a28       0x90 Objects - Graphics Primitives Layer Demo\Meter.o
+ .debug_line    0x00000ab8       0x90 Objects - Graphics Primitives Layer Demo\Picture.o
+ .debug_line    0x00000b48      0x520 Objects - Graphics Primitives Layer Demo\Primitive.o
+ .debug_line    0x00001068       0x90 Objects - Graphics Primitives Layer Demo\ProgressBar.o
+ .debug_line    0x000010f8       0x90 Objects - Graphics Primitives Layer Demo\RadioButton.o
+ .debug_line    0x00001188       0x90 Objects - Graphics Primitives Layer Demo\RoundDial.o
+ .debug_line    0x00001218       0x90 Objects - Graphics Primitives Layer Demo\Slider.o
+ .debug_line    0x000012a8       0x90 Objects - Graphics Primitives Layer Demo\StaticText.o
+ .debug_line    0x00001338      0x793 Objects - Graphics Primitives Layer Demo\DisplayDriver.o
+ .debug_line    0x00001acb      0x130 Objects - Graphics Primitives Layer Demo\TimeDelay.o
+ .debug_line    0x00001bfb       0x83 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o)
+ .debug_line    0x00001c7e       0x8a C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+ .debug_line    0x00001d08       0x86 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+ .debug_line    0x00001d8e       0xa2 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-general-exception-handler.o)
+ .debug_line    0x00001e30       0xa4 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-bootstrap-exception-handler.o)
+ .debug_line    0x00001ed4       0x91 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-reset.o)
+ .debug_line    0x00001f65       0x95 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-bootstrap.o)
+ .debug_line    0x00001ffa       0x8a C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_getc.o)
+ .debug_line    0x00002084       0x8b C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_write.o)
+ .debug_line    0x0000210f       0x86 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_exit.o)
+ .debug_line    0x00002195       0x8a C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_putc.o)
+ .debug_line    0x0000221f       0xa9 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_disable_interrupts_lib.o)
+ .debug_line    0x000022c8       0xa4 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_enable_mv_int_lib.o)
+ .debug_line    0x0000236c       0xa9 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_restore_interrupts_lib.o)
+ .debug_line    0x00002415       0x98 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(pcache.o)
+ .debug_line    0x000024ad       0xa8 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_enable_interrupts_lib.o)
+
+.debug_frame    0x00000000      0x784
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x30 Objects - Graphics Primitives Layer Demo\MainDemo.o
+ .debug_frame   0x00000030      0x1b8 Objects - Graphics Primitives Layer Demo\Primitive.o
+ .debug_frame   0x000001e8      0x144 Objects - Graphics Primitives Layer Demo\DisplayDriver.o
+ .debug_frame   0x0000032c       0x4c Objects - Graphics Primitives Layer Demo\TimeDelay.o
+ .debug_frame   0x00000378       0x34 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o)
+ .debug_frame   0x000003ac       0x98 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+ .debug_frame   0x00000444      0x178 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+ .debug_frame   0x000005bc       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-general-exception-handler.o)
+ .debug_frame   0x000005dc       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-bootstrap-exception-handler.o)
+ .debug_frame   0x000005fc       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-reset.o)
+ .debug_frame   0x0000061c       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-bootstrap.o)
+ .debug_frame   0x0000063c       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_getc.o)
+ .debug_frame   0x0000065c       0x30 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_write.o)
+ .debug_frame   0x0000068c       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_exit.o)
+ .debug_frame   0x000006ac       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_putc.o)
+ .debug_frame   0x000006cc       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_disable_interrupts_lib.o)
+ .debug_frame   0x000006ec       0x28 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_enable_mv_int_lib.o)
+ .debug_frame   0x00000714       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_restore_interrupts_lib.o)
+ .debug_frame   0x00000734       0x30 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(pcache.o)
+ .debug_frame   0x00000764       0x20 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_enable_interrupts_lib.o)
+
+.debug_str      0x00000000     0x1941
+ *(.debug_str)
+ .debug_str     0x00000000       0xa3 Objects - Graphics Primitives Layer Demo\Font35PixelsHeight.o
+                                 0xba (size before relaxing)
+ .debug_str     0x000000a3      0x38e Objects - Graphics Primitives Layer Demo\MainDemo.o
+                                0x468 (size before relaxing)
+ .debug_str     0x00000431       0x5f Objects - Graphics Primitives Layer Demo\Pictures C32.o
+                                0x37d (size before relaxing)
+ .debug_str     0x00000490       0x1c Objects - Graphics Primitives Layer Demo\Font25PixelsHeight.o
+                                 0xbb (size before relaxing)
+ .debug_str     0x000004ac       0x33 Objects - Graphics Primitives Layer Demo\Window.o
+                                0x307 (size before relaxing)
+ .debug_str     0x000004df       0x33 Objects - Graphics Primitives Layer Demo\Button.o
+                                0x307 (size before relaxing)
+ .debug_str     0x00000512       0x32 Objects - Graphics Primitives Layer Demo\Chart.o
+                                0x306 (size before relaxing)
+ .debug_str     0x00000544       0x35 Objects - Graphics Primitives Layer Demo\CheckBox.o
+                                0x309 (size before relaxing)
+ .debug_str     0x00000579       0x34 Objects - Graphics Primitives Layer Demo\EditBox.o
+                                0x308 (size before relaxing)
+ .debug_str     0x000005ad       0x30 Objects - Graphics Primitives Layer Demo\GOL.o
+                                0x304 (size before relaxing)
+ .debug_str     0x000005dd       0x3b Objects - Graphics Primitives Layer Demo\GOLFontDefault.o
+                                0x30f (size before relaxing)
+ .debug_str     0x00000618       0x31 Objects - Graphics Primitives Layer Demo\Grid.o
+                                0x305 (size before relaxing)
+ .debug_str     0x00000649       0x35 Objects - Graphics Primitives Layer Demo\GroupBox.o
+                                0x309 (size before relaxing)
+ .debug_str     0x0000067e       0x34 Objects - Graphics Primitives Layer Demo\ListBox.o
+                                0x308 (size before relaxing)
+ .debug_str     0x000006b2       0x32 Objects - Graphics Primitives Layer Demo\Meter.o
+                                0x306 (size before relaxing)
+ .debug_str     0x000006e4       0x34 Objects - Graphics Primitives Layer Demo\Picture.o
+                                0x308 (size before relaxing)
+ .debug_str     0x00000718      0x41f Objects - Graphics Primitives Layer Demo\Primitive.o
+                                0x764 (size before relaxing)
+ .debug_str     0x00000b37       0x38 Objects - Graphics Primitives Layer Demo\ProgressBar.o
+                                0x30c (size before relaxing)
+ .debug_str     0x00000b6f       0x38 Objects - Graphics Primitives Layer Demo\RadioButton.o
+                                0x30c (size before relaxing)
+ .debug_str     0x00000ba7       0x36 Objects - Graphics Primitives Layer Demo\RoundDial.o
+                                0x30a (size before relaxing)
+ .debug_str     0x00000bdd       0x33 Objects - Graphics Primitives Layer Demo\Slider.o
+                                0x307 (size before relaxing)
+ .debug_str     0x00000c10       0x37 Objects - Graphics Primitives Layer Demo\StaticText.o
+                                0x30b (size before relaxing)
+ .debug_str     0x00000c47      0x1b0 Objects - Graphics Primitives Layer Demo\DisplayDriver.o
+                                0x4de (size before relaxing)
+ .debug_str     0x00000df7       0x12 Objects - Graphics Primitives Layer Demo\TimeDelay.o
+ .debug_str     0x00000e09       0x66 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o)
+                                 0xb2 (size before relaxing)
+ .debug_str     0x00000e6f       0xb7 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+                                 0xfe (size before relaxing)
+ .debug_str     0x00000f26      0x2d9 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                                0x320 (size before relaxing)
+ .debug_str     0x000011ff       0xa0 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-general-exception-handler.o)
+                                 0xe7 (size before relaxing)
+ .debug_str     0x0000129f       0xa4 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-bootstrap-exception-handler.o)
+                                 0xeb (size before relaxing)
+ .debug_str     0x00001343       0x7e C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-reset.o)
+                                 0xc5 (size before relaxing)
+ .debug_str     0x000013c1       0x86 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-bootstrap.o)
+                                 0xcd (size before relaxing)
+ .debug_str     0x00001447       0x77 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_getc.o)
+                                 0xbe (size before relaxing)
+ .debug_str     0x000014be       0x79 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_write.o)
+                                 0xc0 (size before relaxing)
+ .debug_str     0x00001537       0x6f C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_exit.o)
+                                 0xb6 (size before relaxing)
+ .debug_str     0x000015a6       0x77 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_putc.o)
+                                 0xbe (size before relaxing)
+ .debug_str     0x0000161d       0xa1 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_disable_interrupts_lib.o)
+                                 0xe8 (size before relaxing)
+ .debug_str     0x000016be       0xa7 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_enable_mv_int_lib.o)
+                                 0xee (size before relaxing)
+ .debug_str     0x00001765       0xa1 C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_restore_interrupts_lib.o)
+                                 0xe8 (size before relaxing)
+ .debug_str     0x00001806       0x9c C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(pcache.o)
+                                 0xe3 (size before relaxing)
+ .debug_str     0x000018a2       0x9f C:/Program Files/Microchip/MPLAB C32/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a(int_enable_interrupts_lib.o)
+                                 0xe6 (size before relaxing)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+/DISCARD/
+ *(.note.GNU-stack)
+OUTPUT(Objects - Graphics Primitives Layer Demo\Primitives Layer Demo PIC32.elf elf32-tradlittlemips)
+
+.mdebug.abi32   0x9d015e80        0x0
+
+.rel.dyn        0x9d015e80        0x0

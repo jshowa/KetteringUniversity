@@ -1,0 +1,357 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\Font35PixelsHeight.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File001]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\MainDemo.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File002]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\Pictures C32.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File003]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\Font25PixelsHeight.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File004]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\Window.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File005]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\Button.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File006]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\Chart.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File007]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\CheckBox.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File008]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\EditBox.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File009]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\GOL.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File010]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\GOLFontDefault.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File011]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\Grid.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File012]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\GroupBox.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File013]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\ListBox.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File014]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\Meter.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File015]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\Picture.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File016]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\Primitive.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File017]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\ProgressBar.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File018]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\RadioButton.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File019]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\RoundDial.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File020]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\Slider.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File021]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\StaticText.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File022]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\DisplayDriver.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File023]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\TimeDelay.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File024]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\cpld.o
+Folder=Intermediary
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -mno-float -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_REAL_ICE=1
+[File025]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\Primitives Layer Demo PIC32.elf
+Folder=Output
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={C68E5105-1196-4333-A0BF-3DC57271E614}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-ld.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--defsym=_min_heap_size=4000 --defsym=_min_stack_size=2048 -Map="$(BINDIR_)$(TARGETBASE).map" -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -Os
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1 --defsym=__MPLAB_DEBUGGER_REAL_ICE=1 --defsym=__ICD2RAM=1
+[File026]
+Location=F:\MICROS_II\lab6\Graphics Primitive Layer Demo\Objects - Graphics Primitives Layer Demo\Primitives Layer Demo PIC32.hex
+Folder=Output
+DeviceName=PIC32MX360F512L
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={C68E5105-1196-4333-A0BF-3DC57271E614}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C32\bin\pic32-ld.exe
+PPAD=$(BINDIR)|Objects - Graphics Primitives Layer Demo||$(TMPDIR)|Objects - Graphics Primitives Layer Demo||$(AINDIR)||$(INCDIR)|.;C:\Microchip Solutions\Board Support Package;C:\Microchip Solutions\Microchip\Include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|Font35PixelsHeight.c|MainDemo.c|Pictures C32.c|Font25PixelsHeight.c|C:\Microchip Solutions\Microchip\Graphics\Window.c|C:\Microchip Solutions\Microchip\Graphics\Button.c|C:\Microchip Solutions\Microchip\Graphics\Chart.c|C:\Microchip Solutions\Microchip\Graphics\CheckBox.c|C:\Microchip Solutions\Microchip\Graphics\EditBox.c|C:\Microchip Solutions\Microchip\Graphics\GOL.c|C:\Microchip Solutions\Microchip\Graphics\GOLFontDefault.c|C:\Microchip Solutions\Microchip\Graphics\Grid.c|C:\Microchip Solutions\Microchip\Graphics\GroupBox.c|C:\Microchip Solutions\Microchip\Graphics\ListBox.c|C:\Microchip Solutions\Microchip\Graphics\Meter.c|C:\Microchip Solutions\Microchip\Graphics\Picture.c|C:\Microchip Solutions\Microchip\Graphics\Primitive.c|C:\Microchip Solutions\Microchip\Graphics\ProgressBar.c|C:\Microchip Solutions\Microchip\Graphics\RadioButton.c|C:\Microchip Solutions\Microchip\Graphics\RoundDial.c|C:\Microchip Solutions\Microchip\Graphics\Slider.c|C:\Microchip Solutions\Microchip\Graphics\StaticText.c|C:\Microchip Solutions\Microchip\Graphics\DisplayDriver.c|C:\Microchip Solutions\Microchip\Common\TimeDelay.c|C:\Microchip Solutions\Board Support Package\cpld.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--defsym=_min_heap_size=4000 --defsym=_min_stack_size=2048 -Map="$(BINDIR_)$(TARGETBASE).map" -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -Os
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1 --defsym=__MPLAB_DEBUGGER_REAL_ICE=1 --defsym=__ICD2RAM=1
+[TOOL_LOC_STAMPS]
+tool_loc{430F471F-7ECB-4852-A80D-DEF9A5C8E751}=C:\Program Files\Microchip\MPLAB C32\bin\pic32-gcc.exe
+tool_loc{C68E5105-1196-4333-A0BF-3DC57271E614}=C:\Program Files\Microchip\MPLAB C32\bin\pic32-ld.exe

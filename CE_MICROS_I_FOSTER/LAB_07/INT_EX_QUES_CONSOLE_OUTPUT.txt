@@ -1,0 +1,27 @@
+>g
+User Bkpt Encountered
+
+PP  PC    SP    X     Y    D = A:B   CCR = SXHI NZVC
+38 2300  35F5  3E4C  0019     23:00        1001 0000
+xx:2300  1F0267080D    BRCLR $0267,#$08,$2312     
+>md 0267
+
+0260  FF FF 00 00 - 00 00 0C 08 - C3 C3 00 00 - C3 00 00 C3    ................
+>t
+
+PP  PC    SP    X     Y    D = A:B   CCR = SXHI NZVC
+38 2305  35F5  3E4C  0019     23:00        1001 0000
+xx:2305  1C026708      BSET  $0267,#$08           
+
+>md 0267
+
+0260  FF FF 00 00 - 00 00 0C 08 - C3 C3 00 00 - C3 00 00 C3    ................
+>t
+
+PP  PC    SP    X     Y    D = A:B   CCR = SXHI NZVC
+38 2309  35F5  3E4C  0019     23:00        1001 0000
+xx:2309  F61000        LDAB  $1000                
+
+>md 0267
+
+0260  FF FF 00 00 - 00 00 0C 00 - C3 C3 00 00 - C3 00 00 C3    ................

@@ -1,0 +1,38 @@
+CE-426 Lab 2
+Jacob Howarth Scott Snyder
+
+Clock Cycles:
+table 0 = 63
+table 1 = 106
+table 2 = 149
+table 3 = 192
+table 4 = 235
+table 5 = 278
+table 6 = 321
+table 7 = 356
+
+In the clock cycle comparison between the assembly code and the C code resulted in the C code being roughly 3 times slower than the assembly code per table. The pros and cons for assembly and C are as follows:
+
+Assembly
+
+Pros:
+
+1. Faster 
+2. More direct access to registers and memory addresses, specifically the CCR register in order to access the carry bit
+
+Cons:
+
+1. For large applications, writing in assembly would have a significant increase in code lines.
+
+C code
+
+Pros:
+
+1. Easier to read
+
+Cons:
+
+1. No direct access to registers and memory addresses, specifically the CCR register in order to access the carry bit for the shift.
+2. Slower
+
+Overall, we prefer to use the assembly code for small applications such as this.

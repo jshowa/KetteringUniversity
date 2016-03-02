@@ -1,0 +1,18 @@
+CE-426 - Real Time Embedded Systems 
+
+Lab 1
+Jacob Howarth
+Scott Snyder
+
+Clock Cycles
+
+Test Case 1 (0 position): 19
+Test Case 2 (9 position): 35
+Test Case 3 (18 position): 51
+Test Case 4 (27 position): 67
+Test Case 5 (36 position): 83
+Test Case 6 (45 position): 99
+Test Case 7 (54 position): 115
+Test Case 8 (63 position): 131
+
+Size of Sub-Routine in bytes: 19

@@ -1,0 +1,31 @@
+/* This is a linker parameter file for the MC9S12DG256 */
+NAMES END /* CodeWarrior will pass all the needed files to the linker by command line. But here you may add your own files too. */
+
+SEGMENTS /* here all RAM/ROM areas of the device are listed. Used in PLACEMENT below. */
+    RAM_1000 = READ_WRITE 0x1000 TO 0x1FFF;
+    /* unbanked FLASH ROM */
+    RAM_2000 = READ_ONLY  0x2000 TO 0x2FFF;
+    RAM_3000 = READ_ONLY  0x3000 TO 0x35FF;
+  //OSVECTORS = READ_ONLY    0xFF8C TO 0xFFFF;  /* OSEK interrupt vectors (use your vector.o) */
+END
+
+PLACEMENT /* here all predefined and user segments are placed into the SEGMENTS defined above. */
+    //MY_CODE                      INTO  RAM_2000;   
+    DEFAULT_ROM,OTHER_ROM        INTO  RAM_2000;                                                                                     
+  //.stackstart,               /* eventually used for OSEK kernel awareness: Main-Stack Start */
+    SSTACK,                    /* allocate stack first to avoid overwriting variables on overflow */
+  //.stackend,                 /* eventually used for OSEK kernel awareness: Main-Stack End */
+    DEFAULT_RAM                  INTO  RAM_1000;
+
+END
+
+ENTRIES /* keep the following unreferenced variables */
+    /* OSEK: always allocate the vector table and all dependent objects */
+  //_vectab OsBuildNumber _OsOrtiStackStart _OsOrtiStart
+END
+
+STACKSIZE 0x100      // needed to keep CodeWarrior happy
+
+//VECTOR ADDRESS 0xXXXX ISR_name /* Format for Vector Address. */
+VECTOR ADDRESS 0x3E70 RTI_ISR
+VECTOR ADDRESS 0x3E4C PTH_ISR

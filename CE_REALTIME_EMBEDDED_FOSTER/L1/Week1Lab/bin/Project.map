@@ -1,0 +1,157 @@
+*** EVALUATION ***
+PROGRAM "E:\COMP_ENG\REAL_TIME_EMBEDDED_SYSTEMS\LAB\L1\Week1Lab\bin\Project.abs"
+
+*********************************************************************************************
+TARGET SECTION
+---------------------------------------------------------------------------------------------
+Processor   : Freescale HC12
+Memory Model: SMALL
+File Format : ELF\DWARF 2.0
+Linker      : SmartLinker V-5.0.36 Build 9056, Feb 26 2009
+
+*********************************************************************************************
+FILE SECTION
+---------------------------------------------------------------------------------------------
+subs.asm.o                              Model: SMALL,         Lang: Assembler
+main.asm.o                              Model: SMALL,         Lang: Assembler
+
+*********************************************************************************************
+STARTUP SECTION
+---------------------------------------------------------------------------------------------
+Entry point: 0xC000 (Entry)
+
+*********************************************************************************************
+SECTION-ALLOCATION SECTION
+Section Name                    Size  Type     From       To       Segment
+---------------------------------------------------------------------------------------------
+.init                             32     R     0xC000     0xC01F   ROM_C000
+.stack                           256   R/W     0x1000     0x10FF   RAM
+MY_SUBS                           19     R   0x308000   0x308012   PAGE_30
+MY_CONSTANTS                      80     R     0xC020     0xC06F   ROM_C000
+MY_EXTENDED_RAM                    9   R/W     0x1100     0x1108   RAM
+.vectSeg0_vect                     2     R     0xFFFE     0xFFFF   .vectSeg0
+
+Summary of section sizes per section type:
+READ_ONLY (R):          85 (dec:      133)
+READ_WRITE (R/W):      109 (dec:      265)
+
+*********************************************************************************************
+VECTOR-ALLOCATION SECTION
+    Address     InitValue   InitFunction
+---------------------------------------------------------------------------------------------
+     0xFFFE        0xC000   Entry
+
+*********************************************************************************************
+OBJECT-ALLOCATION SECTION
+     Name               Module                 Addr   hSize   dSize     Ref    Section   RLIB
+---------------------------------------------------------------------------------------------
+MODULE:                 -- subs.asm.o --
+- PROCEDURES:
+     priority                                308000       4       4       1   MY_SUBS     
+     loop                                    308004       4       4       0   MY_SUBS     
+     loop2                                   308008       6       6       0   MY_SUBS     
+     increment                               30800E       4       4       0   MY_SUBS     
+     ending                                  308012       1       1       0   MY_SUBS     
+- VARIABLES:
+MODULE:                 -- main.asm.o --
+- PROCEDURES:
+     Entry                                     C000       E      14       0   .init       
+     _Startup                                  C000       0       0       0   .init       
+     main                                      C000       0       0       0   .init       
+     Loop                                      C00E      10      16       0   .init       
+     EndlessLoop                               C01E       2       2       0   .init       
+- VARIABLES:
+     priorities                                1100       8       8       1   MY_EXTENDED_RAM
+     count                                     1108       1       1       2   MY_EXTENDED_RAM
+     tableaddr                                 C020      10      16       1   MY_CONSTANTS
+     table1                                    C030       8       8       1   MY_CONSTANTS
+     table2                                    C038       8       8       1   MY_CONSTANTS
+     table3                                    C040       8       8       1   MY_CONSTANTS
+     table4                                    C048       8       8       1   MY_CONSTANTS
+     table5                                    C050       8       8       1   MY_CONSTANTS
+     table6                                    C058       8       8       1   MY_CONSTANTS
+     table7                                    C060       8       8       1   MY_CONSTANTS
+     table8                                    C068       8       8       1   MY_CONSTANTS
+- LABELS:
+     __SEG_END_SSTACK                          1100       0       0       1               
+
+*********************************************************************************************
+MODULE STATISTIC
+  Name                                      Data   Code  Const
+---------------------------------------------------------------------------------------------
+  subs.asm.o                                   0     19      0
+  main.asm.o                                   9     32     80
+  other                                      256      2      0
+
+*********************************************************************************************
+SECTION USE IN OBJECT-ALLOCATION SECTION
+---------------------------------------------------------------------------------------------
+SECTION: ".init"
+  main _Startup Entry Loop EndlessLoop 
+SECTION: "MY_SUBS"
+  priority loop loop2 increment ending 
+SECTION: "MY_CONSTANTS"
+  tableaddr table1 table2 table3 table4 table5 table6 table7 table8 
+SECTION: "MY_EXTENDED_RAM"
+  priorities count 
+
+*********************************************************************************************
+OBJECT LIST SORTED BY ADDRESS
+     Name                                      Addr   hSize   dSize     Ref    Section   RLIB
+---------------------------------------------------------------------------------------------
+     priorities                                1100       8       8       1   MY_EXTENDED_RAM
+     count                                     1108       1       1       2   MY_EXTENDED_RAM
+     main                                      C000       0       0       0   .init       
+     _Startup                                  C000       0       0       0   .init       
+     Entry                                     C000       E      14       0   .init       
+     Loop                                      C00E      10      16       0   .init       
+     EndlessLoop                               C01E       2       2       0   .init       
+     tableaddr                                 C020      10      16       1   MY_CONSTANTS
+     table1                                    C030       8       8       1   MY_CONSTANTS
+     table2                                    C038       8       8       1   MY_CONSTANTS
+     table3                                    C040       8       8       1   MY_CONSTANTS
+     table4                                    C048       8       8       1   MY_CONSTANTS
+     table5                                    C050       8       8       1   MY_CONSTANTS
+     table6                                    C058       8       8       1   MY_CONSTANTS
+     table7                                    C060       8       8       1   MY_CONSTANTS
+     table8                                    C068       8       8       1   MY_CONSTANTS
+     priority                                308000       4       4       1   MY_SUBS     
+     loop                                    308004       4       4       0   MY_SUBS     
+     loop2                                   308008       6       6       0   MY_SUBS     
+     increment                               30800E       4       4       0   MY_SUBS     
+     ending                                  308012       1       1       0   MY_SUBS     
+
+*********************************************************************************************
+UNUSED-OBJECTS SECTION
+---------------------------------------------------------------------------------------------
+
+*********************************************************************************************
+COPYDOWN SECTION
+---------------------------------------------------------------------------------------------
+
+*********************************************************************************************
+OBJECT-DEPENDENCIES SECTION
+---------------------------------------------------------------------------------------------
+Entry                     USES __SEG_END_SSTACK tableaddr priorities count 
+Loop                      USES priority count 
+tableaddr                 USES table1 table2 table3 table4 table5 table6 
+                                table7 table8 
+
+*********************************************************************************************
+DEPENDENCY TREE
+*********************************************************************************************
+ main and _Startup Group
+ | 
+ +- main                
+ |    
+ +- Entry               
+      
+*********************************************************************************************
+STATISTIC SECTION
+---------------------------------------------------------------------------------------------
+
+ExeFile:
+--------
+Number of blocks to be downloaded: 3
+Total size of all blocks to be downloaded: 133
+
